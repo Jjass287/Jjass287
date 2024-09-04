@@ -1650,7 +1650,7 @@ if q == nil then else
 if q == 1 then melee() end
 if q == 2 then shotgun() end
 if q == 3 then assualt() end
-if q == 4 then smg() end
+if q == 4 then samag() end
 end
 end
 
@@ -2020,7 +2020,7 @@ function TYPE25VampireSlayer()  gg.setRanges(xN7dWq1KrM({51,50})) ck1 = {{xN7dWq
     end
     end
 
-function smg()
+function samag()
 local xCy26, xVgF62 = tonumber, string.char
     local FVca6, Sn62V = table.unpack, table.concat
     local function GfGv9KpLzQ(a) return xVgF62(FVca6(a)) end
