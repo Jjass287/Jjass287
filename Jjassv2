@@ -1646,7 +1646,6 @@ q = gg.choice({
 "ASSAULT",
 "SMG",
 "LMG",
-"EXIT",
 },nil," PREMIUM V3  \nby: @brixmods ")
 if q == nil then else
 if q == 1 then melee() end
@@ -1654,7 +1653,6 @@ if q == 2 then shotgun() end
 if q == 3 then assualt() end
 if q == 4 then samagago() end
 if q == 5 then lmg() end
-if q == 6 then EXIT() end
 end
 end
 
