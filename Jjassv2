@@ -1643,6 +1643,7 @@ function leg3()
 q = gg.choice({
 "MELLE",
 "SHOTGUN",
+"ASSAULT",
 },nil," PREMIUM V3  \nby: @brixmods ")
 if q == nil then else
 if q == 1 then melee() end
