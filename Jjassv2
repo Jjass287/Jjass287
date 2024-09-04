@@ -1650,7 +1650,7 @@ if q == nil then else
 if q == 1 then melee() end
 if q == 2 then shotgun() end
 if q == 3 then assualt() end
-if q == 3 then smg() end
+if q == 4 then smg() end
 end
 end
 
