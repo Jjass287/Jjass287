@@ -62,8 +62,8 @@ end
 
 -- Main script
 local Passwords = {
-    {key = "password1", expirationDate = "2024-09-06", expirationTime = "07:25:59 PM"},
-    {key = "password2", expirationDate = "2024-09-10", expirationTime = "03:15:00 PM"}
+    {key = "BRIXMODZ", expirationDate = "2024-09-06", expirationTime = "07:25:59 PM"},
+    {key = "BRIX15", expirationDate = "2024-09-10", expirationTime = "03:15:00 PM"}
 }
 
 local Menu = gg.prompt({"KEY: "}, nil, {"text"})
@@ -1506,11 +1506,11 @@ function leg3()
 q = gg.choice({
 "MELLE",
 "SHOTGUN",
-
 },nil," PREMIUM V3  \nby: @brixmods ")
 if q == nil then else
 if q == 1 then melee() end
 if q == 2 then shotgun() end
+end
 end
 
 function melee()
