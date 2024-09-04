@@ -262,6 +262,11 @@ end
 end
 
 function logo()
+HexPatches.BrixMODZ("libunity.so", 0x3ACDF50, "h 00 00 80 D2 C0 03 5F D6",32);
+HexPatches.BrixMODZ("libunity.so", 0x9A6F3D4, "h 00 00 80 D2 C0 03 5F D6",32);
+HexPatches.BrixMODZ("libanogs.so", 0x58, "h 20 00 80 D2 C0 03 5F D6",32);
+HexPatches.BrixMODZ("libanogs.so", 0x8F24, "h 20 00 80 D2 C0 03 5F D6",32);
+HexPatches.BrixMODZ("libanogs.so", 0x1C1C0, "h 20 00 80 D2 C0 03 5F D6",32);
 HexPatches.BrixMODZ("libanogs.so", 0x117578, "h00 00 80 D2 C0 03 5F D6", 32);
 HexPatches.BrixMODZ("libanogs.so", 0x11757C, "h00 00 80 D2 C0 03 5F D6", 32);
 HexPatches.BrixMODZ("libanogs.so", 0x118A28, "h00 00 80 D2 C0 03 5F D6", 32);
@@ -281,6 +286,17 @@ HexPatches.BrixMODZ("libanogs.so", 0x136AE8, "h00 00 80 D2 C0 03 5F D6", 32);
 HexPatches.BrixMODZ("libanogs.so", 0x13A0B4, "h00 00 80 D2 C0 03 5F D6", 32);
 HexPatches.BrixMODZ("libanogs.so", 0x13A0B8, "h00 00 80 D2 C0 03 5F D6", 32);
 HexPatches.BrixMODZ("libanogs.so", 0x1749A8, "h00 00 80 D2 C0 03 5F D6", 32);
+HexPatches.BrixMODZ("libanogs.so", 0x1749A8, "h C0 03 5F D6",4);
+HexPatches.BrixMODZ("libanogs.so", 0x174B08, "h C0 03 5F D6",4);
+HexPatches.BrixMODZ("libanogs.so", 0x174DE8, "h C0 03 5F D6",4);
+HexPatches.BrixMODZ("libanogs.so", 0x174DFC, "h C0 03 5F D6",4);
+HexPatches.BrixMODZ("libanogs.so", 0x174F24, "h C0 03 5F D6",4);
+HexPatches.BrixMODZ("libanogs.so", 0x174F78, "h C0 03 5F D6",4);
+HexPatches.BrixMODZ("libanogs.so", 0x174F94, "h C0 03 5F D6",4);
+HexPatches.BrixMODZ("libanogs.so", 0x175040, "h C0 03 5F D6",4);
+HexPatches.BrixMODZ("libanogs.so", 0x1757F0, "h C0 03 5F D6",4);
+HexPatches.BrixMODZ("libanogs.so", 0x175F8C, "h C0 03 5F D6",4);
+HexPatches.BrixMODZ("libanogs.so", 0x175FA8, "h C0 03 5F D6",4);
 gg.toast("BYPASS AND ANTI CRASH ACTIVATED")
 end
 
@@ -300,7 +316,7 @@ e = gg.prompt({
 "◽ ANTENNA LIGHT ADJUSTABLE COLOR [IN-GAME]",
 "◽ SKY COLOR SNAPDRAGON ONLY [IN-GAME]",
 "◽ FPS BOOSTER [IN-GAME]",
-"◽ AIMBOT ADJUSTABLE[IN-GAME]",
+"◽ AIMBOT ADJUSTABLE ALL GUNS[IN-GAME]",
 "◽ WHITE BODY [IN-GAME]",
 "◽ NO RECOIL [IN-GAME]",
 "◽ ANTI FLASH BANG [IN-GAME]",
@@ -940,11 +956,16 @@ end
 
 
 function aim()
+aimbot =gg.prompt({"ᴀɪᴍ ʟᴏᴄᴋ ᴀᴅᴊᴜsᴛ sᴇᴛᴛɪɴɢs [1; 1000000]"}, {[1] = data}, {[1] = "number"})
 unity = gg.getRangesList("libunity.so")[1].start
 setValues(unity + 0x6E83478, 4, "~A8 LDR S0, [PC,#0x8]")
 setValues(unity + 0x6E83478 + 0x4, 4, "~A8 RET")
-aimbot =gg.prompt({"ᴀɪᴍ ʟᴏᴄᴋ ᴀᴅᴊᴜsᴛ sᴇᴛᴛɪɴɢs [1; 1000000]"}, {[1] = data}, {[1] = "number"})
 setValues(unity + 0x6E83478 + 0x8, 16, aimbot[1])
+function setValues(address, flags, value) gg.setValues({[1] = {address = address, flags = flags, value = value}}) end
+unity = gg.getRangesList("libunity.so")[1].start
+setValues(unity + 0x4064F00, 4, "~A8 LDR S0, [PC,#0x8]")
+setValues(unity + 0x4064F00 + 0x4, 4, "~A8 RET")
+setValues(unity + 0x4064F00 + 0x8, 16, aimbot[1])
 gg.setRanges(gg.REGION_ANONYMOUS)
 gg.setVisible(false)
 gg.searchNumber("7.00649232e-45F;0.69999998808F;0.69999998808F;0.69999998808F;0.69999998808F;7.00649232e-45F;0.5F;0.5F;0.5F;0.60000002384F;0.60000002384F", gg.TYPE_FLOAT)
