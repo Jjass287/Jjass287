@@ -1712,7 +1712,7 @@ end
 
     
 function leg3()
-q = gg.choice({
+k = gg.choice({
 "MELLE",
 "SHOTGUN",
 "ASSAULT",
@@ -1720,13 +1720,13 @@ q = gg.choice({
 "LMG",
 "SNIPER",
 },nil," PREMIUM V3  \nby: @brixmods ")
-if i == nil then else
-if i == 1 then melee() end
-if i == 2 then shotgun() end
-if i == 3 then assualt() end
-if i == 4 then samagago() end
-if i == 5 then lmg() end
-if i == 6 then sniperr() end
+if k == nil then else
+if k == 1 then melee() end
+if k == 2 then shotgun() end
+if k == 3 then assualt() end
+if k == 4 then samagago() end
+if k == 5 then lmg() end
+if k == 6 then sniperr() end
 end
 end
 
