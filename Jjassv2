@@ -2450,7 +2450,7 @@ local xCy26, xVgF62 = tonumber, string.char
         if SKINS[xN7dWq1KrM({50,57})] == true then HDRVitaminC() end
         if SKINS[xN7dWq1KrM({51,48})] == true then LW3TUNDRAGrandmaWolf() end
     end
-
+end
 function EXIT()
 gg.toast("sᴄʀɪᴘᴛ ᴛᴇʀᴍɪɴᴀᴛᴇᴅ")
 os.exit() 
