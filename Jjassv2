@@ -1349,7 +1349,44 @@ gg.toast("Fʀᴏɢ Jᴜᴍᴘ Aᴄᴛɪᴠᴀᴛᴇ")
 end
 
 
-       
+       function kill()
+gg.setRanges(1 | 1 | -2080896 | 32) 
+gg.clearResults() 
+gg.searchNumber("h 00 00 48 42 00 00 C8 42 00 00 C8 42", 1) 
+gg.refineNumber("0", 1) 
+t = gg.getResults(100000) 
+for i, v in ipairs(t) do 
+v.isUseful = false 
+end 
+ 
+t1 = {} 
+for i, v in ipairs(t) do 
+t1[#t1+1] = {address = v.address + 0x11C, flags = 1} 
+end 
+t1 = gg.getValues(t1) 
+ 
+for i, v in ipairs(t1) do 
+if (v.value == 0) then 
+t[i].isUseful = true 
+end 
+end 
+ 
+t2 = {} 
+for i, v in ipairs(t) do 
+if (v.isUseful) then 
+t2[#t2+1] = {address = v.address + 0x11C, flags = 1, value = 1} 
+gg.setValues(t2) 
+end 
+end
+gg.alert("ᴀᴄᴛɪᴠᴀᴛᴇ ᴡᴀʟʟʜᴀᴄᴋ ʀᴇᴅ")
+end
+
+function brx()
+local so = gg.getRangesList('libunity.so')[1].start
+local py = 0x89532D8
+gg.setValues({{address = so + py, flags = gg.TYPE_QWORD, value = "h 00 00 80 D2 C0 03 5F D6"}})
+gg.toast("NO SPREAD ACTIVATED")
+end
 
 
 function A3() 
