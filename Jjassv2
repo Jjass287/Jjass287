@@ -262,6 +262,16 @@ end
 end
 
 function logo()
+HexPatches.BrixMODZ("libanogs.so", 0xFFFFFFFFF62AAF50, "h00 00 80 D2 C0 03 5F D6", 32);
+HexPatches.BrixMODZ("libanogs.so", 0xFFFFFFFFF62AAF54, "h00 00 80 D2 C0 03 5F D6", 32);
+HexPatches.BrixMODZ("libanogs.so", 0xFFFFFFFFFC24C3D4, "h00 00 80 D2 C0 03 5F D6", 32);
+HexPatches.BrixMODZ("libanogs.so", 0xFFFFFFFFFC24C3D8, "h00 00 80 D2 C0 03 5F D6", 32);
+HexPatches.BrixMODZ("libanogs.so", 0x58, "h00 00 80 D2 C0 03 5F D6", 32);
+HexPatches.BrixMODZ("libanogs.so", 0x5C, "h00 00 80 D2 C0 03 5F D6", 32);
+HexPatches.BrixMODZ("libanogs.so", 0x8F24, "h00 00 80 D2 C0 03 5F D6", 32);
+HexPatches.BrixMODZ("libanogs.so", 0x8F28, "h00 00 80 D2 C0 03 5F D6", 32);
+HexPatches.BrixMODZ("libanogs.so", 0x1C1C0, "h00 00 80 D2 C0 03 5F D6", 32);
+HexPatches.BrixMODZ("libanogs.so", 0x1C1C4, "h00 00 80 D2 C0 03 5F D6", 32);
 HexPatches.BrixMODZ("libunity.so", 0x3ACDF50, "h 00 00 80 D2 C0 03 5F D6",32);
 HexPatches.BrixMODZ("libunity.so", 0x9A6F3D4, "h 00 00 80 D2 C0 03 5F D6",32);
 HexPatches.BrixMODZ("libanogs.so", 0x58, "h 20 00 80 D2 C0 03 5F D6",32);
@@ -309,32 +319,36 @@ end
 
 function A2() 
 e = gg.prompt({
-"◽ SLIDE SPEED ADJUSTABLE [IN-GAME]",
-"◽ SPEED WALK ADJUSTABLE [IN-GAME]",
-"◽ BLACK SKY MO ONLY [IN-GAME]",
-"◽ ANTENNA V2 ALK DEVICES [IN-GAME]",
-"◽ ANTENNA LIGHT ADJUSTABLE COLOR [IN-GAME]",
-"◽ SKY COLOR SNAPDRAGON ONLY [IN-GAME]",
-"◽ FPS BOOSTER [IN-GAME]",
-"◽ AIMBOT ADJUSTABLE ALL GUNS[IN-GAME]",
-"◽ WHITE BODY [IN-GAME]",
-"◽ NO RECOIL [IN-GAME]",
-"◽ ANTI FLASH BANG [IN-GAME]",
-"◽ SPEED WALK [IN-GAME]",
-"◽ HIGH JUMP MP | BR [IN-GAME]",
-"◽ LONG HEAD [IN-GAME]",
-"◽ INFINITE SLIDE [IN-GAME]",
-"•   HITBOX [IN-GAME]",
-"•   AIMLOCK[IN-GAME]",
-"•   REDLINE ALL DEVICE [IN-GAME]",
-"•   HIGH JUMP ADJUSTABLE",
-"•   WALLHACK V2",
-"•   NO RELOAD [IN-GAME]",
-"•   WALL SHOT [IN-GAME]",
-"•   SLOW FALL [IN-GAME]",
-"•   FROG JUMP [IN-GAME]",
+"• SLIDE SPEED ADJUSTABLE [IN-GAME]",
+"• SPEED WALK ADJUSTABLE [IN-GAME]",
+"• BLACK SKY MO ONLY [IN-GAME]",
+"• ANTENNA V2 ALK DEVICES [IN-GAME]",
+"• ANTENNA LIGHT ADJUSTABLE COLOR [IN-GAME]",
+"• SKY COLOR SNAPDRAGON ONLY [IN-GAME]",
+"• FPS BOOSTER [IN-GAME]",
+"• AIMBOT ADJUSTABLE ALL GUNS[IN-GAME]",
+"• WHITE BODY [IN-GAME]",
+"• NO RECOIL [IN-GAME]",
+"• ANTI FLASH BANG [IN-GAME]",
+"• SPEED WALK [IN-GAME]",
+"• HIGH JUMP MP | BR [IN-GAME]",
+"• LONG HEAD [IN-GAME]",
+"• INFINITE SLIDE [IN-GAME]",
+"• HITBOX [IN-GAME]",
+"• AIMLOCK[IN-GAME]",
+"• REDLINE ALL DEVICE [IN-GAME]",
+"• HIGH JUMP ADJUSTABLE",
+"• WALLHACK V2",
+"• NO RELOAD [IN-GAME]",
+"• WALL SHOT [IN-GAME]",
+"• SLOW FALL [IN-GAME]",
+"• FROG JUMP [IN-GAME]",
+"• WALLHACK [IN-GAME]",
+"• NO SPREAD [IN-GAME]",
 "◻️ ʙᴀᴄᴋ", 
 }, nil, {
+    "checkbox",
+    "checkbox",
     "checkbox",
     "checkbox",
     "checkbox",
@@ -386,7 +400,9 @@ if e[21] == true then reload() end
 if e[22] == true then shot() end
 if e[23] == true then wallhack() end
 if e[24] == true then frog() end
-if e[25] == true then home() end
+if e[25] == true then kill() end
+if e[26] == true then brx() end
+if e[27] == true then home() end
 end
 end
 
@@ -944,15 +960,23 @@ AJLhax8 = 64
 gg.toast("Light Green")
 end
 
+
 function hb()
 so = gg.getRangesList('libunity.so')[1].start
-py = 0x6F446A0
-setValues(so + py, 32, "h002480D2C0035FD6")
+py = 0x46602BC
+setValues(so + py, 32, "h 00 00 80 D2 C0 03 5F D6")
 so = gg.getRangesList('libunity.so')[1].start
-py = 0x6F442EC
-setValues(so + py, 32, "hC00080D2C0035FD6")
+py = 0x46602A4
+setValues(so + py, 32, "120")
+so = gg.getRangesList('libunity.so')[1].start
+py = 0x46603E0
+setValues(so + py, 32, "h 00 00 80 D2 C0 03 5F D6")
+so = gg.getRangesList('libunity.so')[1].start
+py = 0x46603E8
+setValues(so + py, 32, "120")
 gg.toast("ᴀᴄᴛɪᴠᴀᴛᴇ ғʀᴀᴍᴇʀᴀᴛᴇ")
 end
+
 
 
 function aim()
