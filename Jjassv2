@@ -1720,13 +1720,13 @@ q = gg.choice({
 "LMG",
 "SNIPER",
 },nil," PREMIUM V3  \nby: @brixmods ")
-if q == nil then else
-if q == 1 then melee() end
-if q == 2 then shotgun() end
-if q == 3 then assualt() end
-if q == 4 then samagago() end
-if q == 5 then lmg() end
-if q == 6 then sniperr() end
+if i == nil then else
+if i == 1 then melee() end
+if i == 2 then shotgun() end
+if i == 3 then assualt() end
+if i == 4 then samagago() end
+if i == 5 then lmg() end
+if i == 6 then sniperr() end
 end
 end
 
