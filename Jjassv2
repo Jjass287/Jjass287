@@ -262,16 +262,6 @@ end
 end
 
 function logo()
-HexPatches.BrixMODZ("libanogs.so", 0xFFFFFFFFF62AAF50, "h00 00 80 D2 C0 03 5F D6", 32);
-HexPatches.BrixMODZ("libanogs.so", 0xFFFFFFFFF62AAF54, "h00 00 80 D2 C0 03 5F D6", 32);
-HexPatches.BrixMODZ("libanogs.so", 0xFFFFFFFFFC24C3D4, "h00 00 80 D2 C0 03 5F D6", 32);
-HexPatches.BrixMODZ("libanogs.so", 0xFFFFFFFFFC24C3D8, "h00 00 80 D2 C0 03 5F D6", 32);
-HexPatches.BrixMODZ("libanogs.so", 0x58, "h00 00 80 D2 C0 03 5F D6", 32);
-HexPatches.BrixMODZ("libanogs.so", 0x5C, "h00 00 80 D2 C0 03 5F D6", 32);
-HexPatches.BrixMODZ("libanogs.so", 0x8F24, "h00 00 80 D2 C0 03 5F D6", 32);
-HexPatches.BrixMODZ("libanogs.so", 0x8F28, "h00 00 80 D2 C0 03 5F D6", 32);
-HexPatches.BrixMODZ("libanogs.so", 0x1C1C0, "h00 00 80 D2 C0 03 5F D6", 32);
-HexPatches.BrixMODZ("libanogs.so", 0x1C1C4, "h00 00 80 D2 C0 03 5F D6", 32);
 HexPatches.BrixMODZ("libunity.so", 0x3ACDF50, "h 00 00 80 D2 C0 03 5F D6",32);
 HexPatches.BrixMODZ("libunity.so", 0x9A6F3D4, "h 00 00 80 D2 C0 03 5F D6",32);
 HexPatches.BrixMODZ("libanogs.so", 0x58, "h 20 00 80 D2 C0 03 5F D6",32);
