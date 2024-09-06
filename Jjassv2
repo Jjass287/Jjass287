@@ -264,31 +264,18 @@ if w[3] == true then home() end
 end
 end
 
+
 function logo()
-HexPatches.BrixMODZ("libunity.so", 0x3ACDF50, "h 00 00 80 D2 C0 03 5F D6",32);
-HexPatches.BrixMODZ("libunity.so", 0x9A6F3D4, "h 00 00 80 D2 C0 03 5F D6",32);
-HexPatches.BrixMODZ("libanogs.so", 0x58, "h 20 00 80 D2 C0 03 5F D6",32);
-HexPatches.BrixMODZ("libanogs.so", 0x8F24, "h 20 00 80 D2 C0 03 5F D6",32);
-HexPatches.BrixMODZ("libanogs.so", 0x1C1C0, "h 20 00 80 D2 C0 03 5F D6",32);
-HexPatches.BrixMODZ("libanogs.so", 0x117578, "h00 00 80 D2 C0 03 5F D6", 32);
-HexPatches.BrixMODZ("libanogs.so", 0x11757C, "h00 00 80 D2 C0 03 5F D6", 32);
-HexPatches.BrixMODZ("libanogs.so", 0x118A28, "h00 00 80 D2 C0 03 5F D6", 32);
-HexPatches.BrixMODZ("libanogs.so", 0x118A2C, "h00 00 80 D2 C0 03 5F D6", 32);
-HexPatches.BrixMODZ("libanogs.so", 0x118B00, "h00 00 80 D2 C0 03 5F D6", 32);
-HexPatches.BrixMODZ("libanogs.so", 0x118B04, "h00 00 80 D2 C0 03 5F D6", 32);
-HexPatches.BrixMODZ("libanogs.so", 0x118BC8, "h00 00 80 D2 C0 03 5F D6", 32);
-HexPatches.BrixMODZ("libanogs.so", 0x118BCC, "h00 00 80 D2 C0 03 5F D6", 32);
-HexPatches.BrixMODZ("libanogs.so", 0x1195D0, "h00 00 80 D2 C0 03 5F D6", 32);
-HexPatches.BrixMODZ("libanogs.so", 0x1195D4, "h00 00 80 D2 C0 03 5F D6", 32);
-HexPatches.BrixMODZ("libanogs.so", 0x134EF8, "h00 00 80 D2 C0 03 5F D6", 32);
-HexPatches.BrixMODZ("libanogs.so", 0x134EFC, "h00 00 80 D2 C0 03 5F D6", 32);
-HexPatches.BrixMODZ("libanogs.so", 0x134FAC, "h00 00 80 D2 C0 03 5F D6", 32);
-HexPatches.BrixMODZ("libanogs.so", 0x134FB0, "h00 00 80 D2 C0 03 5F D6", 32);
-HexPatches.BrixMODZ("libanogs.so", 0x136AE4, "h00 00 80 D2 C0 03 5F D6", 32);
-HexPatches.BrixMODZ("libanogs.so", 0x136AE8, "h00 00 80 D2 C0 03 5F D6", 32);
-HexPatches.BrixMODZ("libanogs.so", 0x13A0B4, "h00 00 80 D2 C0 03 5F D6", 32);
-HexPatches.BrixMODZ("libanogs.so", 0x13A0B8, "h00 00 80 D2 C0 03 5F D6", 32);
-HexPatches.BrixMODZ("libanogs.so", 0x1749A8, "h00 00 80 D2 C0 03 5F D6", 32);
+HexPatches.BrixMODZ("libanogs.so", 0xCA6AE9, "h 06 49 D9 78 5C 1B 54 90", 32);
+HexPatches.BrixMODZ("libanogs.so", 0x80220C, "h 06 49 D9 78 5C 1B 54 90", 32);
+HexPatches.BrixMODZ("libanogs.so", 0x5B4E5C, "h 06 49 D9 78 5C 1B 54 90", 32);
+HexPatches.BrixMODZ("libanogs.so", 0xC7717E, "h 06 49 D9 78 5C 1B 54 90", 32);
+HexPatches.BrixMODZ("libanogs.so", 0x2B7E2F, "h 06 49 D9 78 5C 1B 54 90", 32);
+HexPatches.BrixMODZ("libanogs.so", 0x0665D8, "h 06 49 D9 78 5C 1B 54 90", 32);
+HexPatches.BrixMODZ("libanogs.so", 0x1ACACE, "h 06 49 D9 78 5C 1B 54 90", 32);
+HexPatches.BrixMODZ("libanogs.so", 0xD83760, "h 06 49 D9 78 5C 1B 54 90", 32);
+HexPatches.BrixMODZ("libanogs.so", 0x4D243C, "h 06 49 D9 78 5C 1B 54 90", 32);
+HexPatches.BrixMODZ("libanogs.so", 0xDC95A1, "h 06 49 D9 78 5C 1B 54 90", 32);
 HexPatches.BrixMODZ("libanogs.so", 0x1749A8, "h C0 03 5F D6",4);
 HexPatches.BrixMODZ("libanogs.so", 0x174B08, "h C0 03 5F D6",4);
 HexPatches.BrixMODZ("libanogs.so", 0x174DE8, "h C0 03 5F D6",4);
@@ -336,12 +323,8 @@ e = gg.prompt({
 "• WALL SHOT [IN-GAME]",
 "• SLOW FALL [IN-GAME]",
 "• FROG JUMP [IN-GAME]",
-"• WALLHACK [IN-GAME]",
-"• NO SPREAD [IN-GAME]",
 "◻️ ʙᴀᴄᴋ", 
 }, nil, {
-    "checkbox",
-    "checkbox",
     "checkbox",
     "checkbox",
     "checkbox",
@@ -393,9 +376,7 @@ if e[21] == true then reload() end
 if e[22] == true then shot() end
 if e[23] == true then wallhack() end
 if e[24] == true then frog() end
-if e[25] == true then kill() end
-if e[26] == true then brx() end
-if e[27] == true then home() end
+if e[25] == true then home() end
 end
 end
 
@@ -978,11 +959,6 @@ unity = gg.getRangesList("libunity.so")[1].start
 setValues(unity + 0x6E83478, 4, "~A8 LDR S0, [PC,#0x8]")
 setValues(unity + 0x6E83478 + 0x4, 4, "~A8 RET")
 setValues(unity + 0x6E83478 + 0x8, 16, aimbot[1])
-function setValues(address, flags, value) gg.setValues({[1] = {address = address, flags = flags, value = value}}) end
-unity = gg.getRangesList("libunity.so")[1].start
-setValues(unity + 0x4064F00, 4, "~A8 LDR S0, [PC,#0x8]")
-setValues(unity + 0x4064F00 + 0x4, 4, "~A8 RET")
-setValues(unity + 0x4064F00 + 0x8, 16, aimbot[1])
 gg.setRanges(gg.REGION_ANONYMOUS)
 gg.setVisible(false)
 gg.searchNumber("7.00649232e-45F;0.69999998808F;0.69999998808F;0.69999998808F;0.69999998808F;7.00649232e-45F;0.5F;0.5F;0.5F;0.60000002384F;0.60000002384F", gg.TYPE_FLOAT)
@@ -1352,44 +1328,6 @@ gg.toast("Fʀᴏɢ Jᴜᴍᴘ Aᴄᴛɪᴠᴀᴛᴇ")
 end
 
 
-       function kill()
-gg.setRanges(1 | 1 | -2080896 | 32) 
-gg.clearResults() 
-gg.searchNumber("h 00 00 48 42 00 00 C8 42 00 00 C8 42", 1) 
-gg.refineNumber("0", 1) 
-t = gg.getResults(100000) 
-for i, v in ipairs(t) do 
-v.isUseful = false 
-end 
- 
-t1 = {} 
-for i, v in ipairs(t) do 
-t1[#t1+1] = {address = v.address + 0x11C, flags = 1} 
-end 
-t1 = gg.getValues(t1) 
- 
-for i, v in ipairs(t1) do 
-if (v.value == 0) then 
-t[i].isUseful = true 
-end 
-end 
- 
-t2 = {} 
-for i, v in ipairs(t) do 
-if (v.isUseful) then 
-t2[#t2+1] = {address = v.address + 0x11C, flags = 1, value = 1} 
-gg.setValues(t2) 
-end 
-end
-gg.alert("ᴀᴄᴛɪᴠᴀᴛᴇ ᴡᴀʟʟʜᴀᴄᴋ ʀᴇᴅ")
-end
-
-function brx()
-local so = gg.getRangesList('libunity.so')[1].start
-local py = 0x89532D8
-gg.setValues({{address = so + py, flags = gg.TYPE_QWORD, value = "h 00 00 80 D2 C0 03 5F D6"}})
-gg.toast("NO SPREAD ACTIVATED")
-end
 
 
 function A3() 
