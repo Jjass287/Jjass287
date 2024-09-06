@@ -307,7 +307,7 @@ e = gg.prompt({
 "• ANTENNA LIGHT ADJUSTABLE COLOR [IN-GAME]",
 "• SKY COLOR SNAPDRAGON ONLY [IN-GAME]",
 "• FPS BOOSTER [IN-GAME]",
-"• AIMBOT ADJUSTABLE [IN-GAME]",
+"• AIMBOT BRUTAL ADJUSTABLE [IN-GAME]",
 "• WHITE BODY [IN-GAME]",
 "• NO RECOIL [IN-GAME]",
 "• ANTI FLASH BANG [IN-GAME]",
@@ -316,7 +316,7 @@ e = gg.prompt({
 "• LONG HEAD [IN-GAME]",
 "• INFINITE SLIDE [IN-GAME]",
 "• HITBOX [IN-GAME]",
-"• AIMLOCK[IN-GAME]",
+"• AIM SMOOTH ADJUSTABLE [IN-GAME]",
 "• REDLINE ALL DEVICE [IN-GAME]",
 "• HIGH JUMP ADJUSTABLE",
 "• WALLHACK V2",
@@ -955,7 +955,7 @@ end
 
 
 function aim()
-aimbot =gg.prompt({"ᴀɪᴍ ʟᴏᴄᴋ ᴀᴅᴊᴜsᴛ sᴇᴛᴛɪɴɢs [1; 100]"}, {[1] = data}, {[1] = "number"})
+aimbot =gg.prompt({"ᴀɪᴍ ʟᴏᴄᴋ ᴀᴅᴊᴜsᴛ sᴇᴛᴛɪɴɢs [1; 1000000]"}, {[1] = data}, {[1] = "number"})
 unity = gg.getRangesList("libunity.so")[1].start
 setValues(unity + 0x6E83478, 4, "~A8 LDR S0, [PC,#0x8]")
 setValues(unity + 0x6E83478 + 0x4, 4, "~A8 RET")
@@ -1101,11 +1101,19 @@ gg.toast("Hitbox Activated")
 end
 
 function aimlock()
-unity=gg.getRangesList("libunity.so")[1].start 
-setValues(unity + 0x6E83478, 4, "~A8 LDR  S0, [PC,#0x8]") 
-setValues(unity + 0x6E83478 + 0x4, 4, "~A8 RET") 
-setValues(unity + 0x6E83478 + 0x8, 16, 1000000) 
-gg.toast("Aɪᴍʙᴏᴛ Aᴄᴛɪᴠᴀᴛᴇ")
+aimbot =gg.prompt({"ᴀɪᴍ ʟᴏᴄᴋ ᴀᴅᴊᴜsᴛ sᴇᴛᴛɪɴɢs [1; 100]"}, {[1] = data}, {[1] = "number"})
+unity = gg.getRangesList("libunity.so")[1].start
+setValues(unity + 0x6E83478, 4, "~A8 LDR S0, [PC,#0x8]")
+setValues(unity + 0x6E83478 + 0x4, 4, "~A8 RET")
+setValues(unity + 0x6E83478 + 0x8, 16, aimbot[1])
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.setVisible(false)
+gg.searchNumber("7.00649232e-45F;0.69999998808F;0.69999998808F;0.69999998808F;0.69999998808F;7.00649232e-45F;0.5F;0.5F;0.5F;0.60000002384F;0.60000002384F", gg.TYPE_FLOAT)
+gg.refineNumber("0.5;0.69999998808", gg.TYPE_FLOAT)
+gg.getResults(9999)
+gg.editAll("350", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("ᴀᴄᴛɪᴠᴀᴛᴇ ᴀɪᴍʙᴏᴛ")
 end
 
 function sniper()
