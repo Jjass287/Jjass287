@@ -1691,6 +1691,7 @@ k = gg.choice({
 "SMG",
 "LMG",
 "SNIPER",
+"PISTOL",
 },nil," PREMIUM V3  \nby: @brixmods ")
 if k == nil then else
 if k == 1 then melee() end
