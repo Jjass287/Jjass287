@@ -1691,6 +1691,7 @@ k = gg.choice({
 "SMG",
 "LMG",
 "SNIPER",
+"PISTOL",
 },nil," PREMIUM V3  \nby: @brixmods ")
 if k == nil then else
 if k == 1 then melee() end
@@ -1699,6 +1700,7 @@ if k == 3 then assualt() end
 if k == 4 then samagago() end
 if k == 5 then lmg() end
 if k == 6 then sniperr() end
+if k == 7 then pistol() end
 end
 end
 
@@ -2445,6 +2447,41 @@ local xCy26, xVgF62 = tonumber, string.char
         if SKINS[xN7dWq1KrM({51,48})] == true then LW3TUNDRAGrandmaWolf() end
     end
 end
+
+function pistol()
+
+    function J358LayersOfFear()  gg.setRanges(32) ck1 = {{10602001, 0}, {5125, -16}} ck2 = {{100198, 4}, {10602259, 8}} czk(ck1, ck2, 4)  gg.setRanges(32) ck1 = {{10602201, 0}, {5125, -16}} ck2 = {{100198, 4}, {10602259, 8}} czk(ck1, ck2, 4)  gg.setRanges(32) ck1 = {{10602001, 0}, {1880000001, 20}, {10602001, 64}}     ck2 = {{10602259, 64}}     czk(ck1, ck2, 4)         gg.setRanges(32)     ck1 = {{10602001, 0}, {1880000001, 20}, {0, 24}, {300111, 40}, {130, 76}, {110, 84}}     ck2 = {{10602001, 64}}     czk(ck1, ck2, 4)         gg.setRanges(32)     ck1 = {{10602001, 0}, {1880000001, 20}, {50, 76}, {30, 84}}     ck2 = {{4, 8},  {0, 28}, {0, 32}, {200118, 36}, {300111, 40}, {0, 44}, {0, 48}, {0, 52}}     czk(ck1, ck2, 4)     gg.setRanges(32)     ck1 = {{10602001, 0}, {1057803469, 16}}     ck2 = {{10909, -12}}     czk(ck1, ck2, 4)   end  
+    function J358LayersOfFearCN()  gg.setRanges(32) ck1 = {{10602001, 0}, {5125, -16}} ck2 = {{100250, 4}, {10602273, 8}} czk(ck1, ck2, 4)  gg.setRanges(32) ck1 = {{10602201, 0}, {5125, -16}} ck2 = {{100250, 4}, {10602273, 8}} czk(ck1, ck2, 4)  gg.setRanges(32) ck1 = {{10602001, 0}, {1880000001, 20}, {10602001, 64}}     ck2 = {{10602273, 64}}     czk(ck1, ck2, 4)         gg.setRanges(32)     ck1 = {{10602001, 0}, {1880000001, 20}, {0, 24}, {300111, 40}, {130, 76}, {110, 84}}     ck2 = {{10602001, 64}}     czk(ck1, ck2, 4)         gg.setRanges(32)     ck1 = {{10602001, 0}, {1880000001, 20}, {50, 76}, {30, 84}}     ck2 = {{4, 8},  {0, 28}, {0, 32}, {200118, 36}, {300111, 40}, {0, 44}, {0, 48}, {0, 52}}     czk(ck1, ck2, 4)     gg.setRanges(32)     ck1 = {{10602001, 0}, {1057803469, 16}}     ck2 = {{67307, -12}}     czk(ck1, ck2, 4)   end  
+    function RenettiMetalPhantom()  gg.setRanges(32) ck1 = {{10608001, 0}, {5134, -16}} ck2 = {{10446, 4}, {10608002, 8}} czk(ck1, ck2, 4)  gg.setRanges(32) ck1 = {{10608201, 0}, {5134, -16}} ck2 = {{10446, 4}, {10608002, 8}} czk(ck1, ck2, 4)  gg.setRanges(32) ck1 = {{10608001, 0}, {1880000001, 20}, {10608001, 64}}     ck2 = {{10608002, 64}}     czk(ck1, ck2, 4)         gg.setRanges(32)     ck1 = {{10608001, 0}, {1880000001, 20}, {0, 24}, {300059, 40}, {50, 76}, {30, 84}}     ck2 = {{10608001, 64}}     czk(ck1, ck2, 4)         gg.setRanges(32)     ck1 = {{10608001, 0}, {1880000001, 20}, {50, 76}, {30, 84}}     ck2 = {{4, 8},  {0, 28}, {0, 32}, {200063, 36}, {300059, 40}, {0, 44}, {0, 48}, {0, 52}}     czk(ck1, ck2, 4)     gg.setRanges(32)     ck1 = {{10608001, 0}, {1057803469, 16}}     ck2 = {{200010319, -12}}     czk(ck1, ck2, 4)   end  
+    function CrossbowPlasma()  gg.setRanges(32) ck1 = {{10610001, 0}, {5136, -16}} ck2 = {{100104, 4}, {10610006, 8}} czk(ck1, ck2, 4)  gg.setRanges(32) ck1 = {{10610201, 0}, {5136, -16}} ck2 = {{100104, 4}, {10610006, 8}} czk(ck1, ck2, 4)  gg.setRanges(32) ck1 = {{10610001, 0}, {1880000001, 20}, {10610001, 64}}     ck2 = {{10610006, 64}}     czk(ck1, ck2, 4)         gg.setRanges(32)     ck1 = {{10610001, 0}, {1880000001, 20}, {0, 24}, {300098, 40}, {50, 76}, {30, 84}}     ck2 = {{10610001, 64}}     czk(ck1, ck2, 4)         gg.setRanges(32)     ck1 = {{10610001, 0}, {1880000001, 20}, {50, 76}, {30, 84}}     ck2 = {{4, 8},  {0, 28}, {0, 32}, {200105, 36}, {300098, 40}, {0, 44}, {0, 48}, {0, 52}}     czk(ck1, ck2, 4)     gg.setRanges(32)     ck1 = {{10610001, 0}, {1057803469, 16}}     ck2 = {{6997, -12}}     czk(ck1, ck2, 4)   end  
+    function LCAR9Seiko()  gg.setRanges(32) ck1 = {{10611001, 0}, {5137, -16}} ck2 = {{100347, 4}, {10611002, 8}} czk(ck1, ck2, 4)  gg.setRanges(32) ck1 = {{10611201, 0}, {5137, -16}} ck2 = {{100347, 4}, {10611002, 8}} czk(ck1, ck2, 4)  gg.setRanges(32) ck1 = {{10611001, 0}, {1880000001, 20}, {10611001, 64}}     ck2 = {{10611002, 64}}     czk(ck1, ck2, 4)         gg.setRanges(32)     ck1 = {{10611001, 0}, {1880000001, 20}, {0, 24}, {300127, 40}, {50, 76}, {30, 84}}     ck2 = {{10611001, 64}}     czk(ck1, ck2, 4)         gg.setRanges(32)     ck1 = {{10611001, 0}, {1880000001, 20}, {50, 76}, {30, 84}}     ck2 = {{4, 8},  {0, 28}, {0, 32}, {200134, 36}, {300127, 40}, {0, 44}, {0, 48}, {0, 52}}     czk(ck1, ck2, 4)     gg.setRanges(32)     ck1 = {{10611001, 0}, {1057803469, 16}}     ck2 = {{71789, -12}}     czk(ck1, ck2, 4)   end  
+    function SykovBaionikku()  gg.setRanges(32) ck1 = {{10612001, 0}, {5138, -16}} ck2 = {{100641, 4}, {10612002, 8}} czk(ck1, ck2, 4)  gg.setRanges(32) ck1 = {{10612201, 0}, {5138, -16}} ck2 = {{100641, 4}, {10612002, 8}} czk(ck1, ck2, 4)  gg.setRanges(32) ck1 = {{10612001, 0}, {1880000001, 20}, {10612001, 64}}     ck2 = {{10612002, 64}}     czk(ck1, ck2, 4)         gg.setRanges(32)     ck1 = {{10612001, 0}, {1880000001, 20}, {0, 24}, {300183, 40}, {50, 76}, {30, 84}}     ck2 = {{10612001, 64}}     czk(ck1, ck2, 4)         gg.setRanges(32)     ck1 = {{10612001, 0}, {1880000001, 20}, {50, 76}, {30, 84}}     ck2 = {{4, 8},  {0, 28}, {0, 32}, {200190, 36}, {300183, 40}, {0, 44}, {0, 48}, {0, 52}}     czk(ck1, ck2, 4)     gg.setRanges(32)     ck1 = {{10612001, 0}, {1057803469, 16}}     ck2 = {{82576, -12}}     czk(ck1, ck2, 4)   end  
+    function NAILGUNCWDNA()  gg.setRanges(32) ck1 = {{10613001, 0}, {5140, -16}} ck2 = {{100823, 4}, {10613002, 8}} czk(ck1, ck2, 4)  gg.setRanges(32) ck1 = {{10613201, 0}, {5140, -16}} ck2 = {{100823, 4}, {10613002, 8}} czk(ck1, ck2, 4)  gg.setRanges(32) ck1 = {{10613001, 0}, {1880000001, 20}, {10613001, 64}}     ck2 = {{10613002, 64}}     czk(ck1, ck2, 4)         gg.setRanges(32)     ck1 = {{10613001, 0}, {1880000001, 20}, {0, 24}, {300219, 40}, {50, 76}, {30, 84}}     ck2 = {{10613001, 64}}     czk(ck1, ck2, 4)         gg.setRanges(32)     ck1 = {{10613001, 0}, {1880000001, 20}, {50, 76}, {30, 84}}     ck2 = {{4, 8},  {0, 28}, {0, 32}, {200229, 36}, {300219, 40}, {0, 44}, {0, 48}, {0, 52}}     czk(ck1, ck2, 4)     gg.setRanges(32)     ck1 = {{10613001, 0}, {1057803469, 16}}     ck2 = {{89195, -12}}     czk(ck1, ck2, 4)   end  
+    function MACHINEPISTOLGin()  gg.setRanges(32) ck1 = {{10614001, 0}, {5141, -16}} ck2 = {{101044, 4}, {10614002, 8}} czk(ck1, ck2, 4)  gg.setRanges(32) ck1 = {{10614201, 0}, {5141, -16}} ck2 = {{101044, 4}, {10614002, 8}} czk(ck1, ck2, 4)  gg.setRanges(32) ck1 = {{10614001, 0}, {1880000001, 20}, {10614001, 64}}     ck2 = {{10614002, 64}}     czk(ck1, ck2, 4)         gg.setRanges(32)     ck1 = {{10614001, 0}, {1880000001, 20}, {0, 24}, {300254, 40}, {50, 76}, {30, 84}}     ck2 = {{10614001, 64}}     czk(ck1, ck2, 4)         gg.setRanges(32)     ck1 = {{10614001, 0}, {1880000001, 20}, {50, 76}, {30, 84}}     ck2 = {{4, 8},  {0, 28}, {0, 32}, {200264, 36}, {300254, 40}, {0, 44}, {0, 48}, {0, 52}}     czk(ck1, ck2, 4)     gg.setRanges(32)     ck1 = {{10614001, 0}, {1057803469, 16}}     ck2 = {{96518, -12}}     czk(ck1, ck2, 4)   end 
+
+    
+          SKINS = gg.multiChoice({
+        "J358 LayersOfFear",
+        "J358 LayersOfFearCN",
+        "50GS Calamity",
+        "Renetti MetalPhantom",
+        "Crossbow Plasma",
+        "LCAR9 Seiko",
+        "Sykov Baionikku",
+        "NAILGUN CWDNA",
+        "MACHINEPISTOL Gin",
+        }, nil, "Pistol Skin")
+    if SKINS == nil then else
+        if SKINS[1] == true then J358LayersOfFear() end
+        if SKINS[2] == true then J358LayersOfFearCN() end
+        if SKINS[3] == true then RenettiMetalPhantom() end
+        if SKINS[4] == true then CrossbowPlasma() end
+        if SKINS[5] == true then LCAR9Seiko() end
+        if SKINS[6] == true then SykovBaionikku() end
+        if SKINS[7] == true then NAILGUNCWDNA() end
+        if SKINS[8] == true then MACHINEPISTOLGin() end
+ end
+ end
 
 function EXIT()
 gg.toast("sᴄʀɪᴘᴛ ᴛᴇʀᴍɪɴᴀᴛᴇᴅ")
