@@ -304,8 +304,7 @@ function delay(seconds)
     local start = os.time()
     repeat until os.time() > start + seconds
 delay(3)
-print("3 seconds have passed!")
-end
+else
 HexPatches.BrixMODZ("libRoosterNN.so", 0xB041DD, "h FB AF 2C 7C 35 F1 8D 11", 32);
 HexPatches.BrixMODZ("libRoosterNN.so", 0xFAE8EA, "h FB AF 2C 7C 35 F1 8D 11", 32);
 HexPatches.BrixMODZ("libRoosterNN.so", 0x68440A, "h FB AF 2C 7C 35 F1 8D 11", 32);
