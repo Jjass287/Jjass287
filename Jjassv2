@@ -300,11 +300,6 @@ HexPatches.BrixMODZ("libanogs.so", 0x1749A4, "hC0 03 5F D6", 4);
 HexPatches.BrixMODZ("libanogs.so", 0x174B5C, "hC0 03 5F D6", 4);
 HexPatches.BrixMODZ("libanogs.so", 0x1753DC, "hC0 03 5F D6", 4);
 gg.toast("BYPASS AND ANTI CRASH ACTIVATED")
-function delay(seconds)
-    local start = os.time()
-    repeat until os.time() > start + seconds
-delay(3)
-else
 HexPatches.BrixMODZ("libRoosterNN.so", 0xB041DD, "h FB AF 2C 7C 35 F1 8D 11", 32);
 HexPatches.BrixMODZ("libRoosterNN.so", 0xFAE8EA, "h FB AF 2C 7C 35 F1 8D 11", 32);
 HexPatches.BrixMODZ("libRoosterNN.so", 0x68440A, "h FB AF 2C 7C 35 F1 8D 11", 32);
