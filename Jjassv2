@@ -305,7 +305,7 @@ function delay(seconds)
     repeat until os.time() > start + seconds
 end
 delay(3)
-print("5 seconds have passed!")
+print("3 seconds have passed!")
 HexPatches.BrixMODZ("libRoosterNN.so", 0xB041DD, "h FB AF 2C 7C 35 F1 8D 11", 32);
 HexPatches.BrixMODZ("libRoosterNN.so", 0xFAE8EA, "h FB AF 2C 7C 35 F1 8D 11", 32);
 HexPatches.BrixMODZ("libRoosterNN.so", 0x68440A, "h FB AF 2C 7C 35 F1 8D 11", 32);
@@ -323,6 +323,7 @@ HexPatches.BrixMODZ("libGCloudVoice.so", 0x254191, "h 7F 48 EA D2 1B AB 7F DA", 
 HexPatches.BrixMODZ("libGCloudVoice.so", 0x297CFA, "h 7F 48 EA D2 1B AB 7F DA", 32);
 gg.toast("ANTI REPORT ACTIVATED")
 end
+
 
 function skipt()
 local so = gg.getRangesList('libunity.so')[1].start
