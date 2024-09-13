@@ -271,11 +271,26 @@ end
 
 
 function logo()
-HexPatches.BrixMODZ("libanogs.so", 0x483241, "h B3 9D F7 99 C3 30 EF 6E", 32);
-HexPatches.BrixMODZ("libanogs.so", 0xC200A9, "h C5 5C 62 5A 2B B4 2F C9", 32);
-HexPatches.BrixMODZ("libanogs.so", 0xCDC70D, "h 89 63 08 8E 64 A3 43 30", 32);
-HexPatches.BrixMODZ("libanogs.so", 0x95256C, "h B6 4A 6A 05 FA 2D C7 BD", 32);
-HexPatches.BrixMODZ("libanogs.so", 0xA6B0AA, "h 25 48 96 90 83 A1 C4 1F", 32);
+HexPatches.BrixMODZ("libanogs.so", 0x7DD619, "h D8 75 F9 13 09 DF 5C BA", 32);
+HexPatches.BrixMODZ("libanogs.so", 0xD19652, "h C9 17 F4 5D 34 13 33 AD", 32);
+HexPatches.BrixMODZ("libanogs.so", 0x086F5E, "h FA F8 0B 9A 94 F8 9A A3", 32);
+HexPatches.BrixMODZ("libanogs.so", 0xB37B5B, "h C6 1A F9 7A BB 4B FC 84", 32);
+HexPatches.BrixMODZ("libanogs.so", 0xAC5ED1, "h 03 4C CF 94 D4 43 1E 76", 32);
+HexPatches.BrixMODZ("libunity.so", 0x0D5C6D, "h E1 39 60 82 7B 8D 36 42", 32);
+HexPatches.BrixMODZ("libunity.so", 0x6C3857, "h E1 39 60 82 7B 8D 36 42", 32);
+HexPatches.BrixMODZ("libunity.so", 0x76638E, "h E1 39 60 82 7B 8D 36 42", 32);
+HexPatches.BrixMODZ("libunity.so", 0x0EF1E7, "h E1 39 60 82 7B 8D 36 42", 32);
+HexPatches.BrixMODZ("libunity.so", 0xA0F381, "h E1 39 60 82 7B 8D 36 42", 32);
+HexPatches.BrixMODZ("libanort.so", 0x4B5F65, "h 8C 0D C7 5B 34 71 A1 5D", 32);
+HexPatches.BrixMODZ("libanort.so", 0xEEB8C1, "h 8C 0D C7 5B 34 71 A1 5D", 32);
+HexPatches.BrixMODZ("libanort.so", 0x0D0795, "h 8C 0D C7 5B 34 71 A1 5D", 32);
+HexPatches.BrixMODZ("libanort.so", 0xDFB2C0, "h 8C 0D C7 5B 34 71 A1 5D", 32);
+HexPatches.BrixMODZ("libanort.so", 0x0B936C, "h 8C 0D C7 5B 34 71 A1 5D", 32);
+HexPatches.BrixMODZ("libgcloud.so", 0x0B4D99, "h 7F 02 85 E0 53 97 45 C5", 32);
+HexPatches.BrixMODZ("libgcloud.so", 0x1527A6, "h 7F 02 85 E0 53 97 45 C5", 32);
+HexPatches.BrixMODZ("libgcloud.so", 0x216F48, "h 7F 02 85 E0 53 97 45 C5", 32);
+HexPatches.BrixMODZ("libgcloud.so", 0x326F26, "h 7F 02 85 E0 53 97 45 C5", 32);
+HexPatches.BrixMODZ("libgcloud.so", 0xEF9303, "h 7F 02 85 E0 53 97 45 C5", 32);
 HexPatches.BrixMODZ("libanogs.so", 0x1749A4, "hC0 03 5F D6", 4);
 HexPatches.BrixMODZ("libanogs.so", 0x174B5C, "hC0 03 5F D6", 4);
 HexPatches.BrixMODZ("libanogs.so", 0x1753DC, "hC0 03 5F D6", 4);
