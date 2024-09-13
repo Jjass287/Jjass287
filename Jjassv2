@@ -73,7 +73,8 @@ local Passwords = {
 {key = "BRIX6", expirationDate = "2024-09-11", expirationTime = "02:00:00 AM"},
 {key = "BRIX7", expirationDate = "2024-09-12", expirationTime = "07:00:00 PM"},
 {key = "BRIX8", expirationDate = "2024-09-10", expirationTime = "11:20:00 PM"},
-{key = "BRIX9", expirationDate = "2024-09-16", expirationTime = "09:50:00 PM"}
+{key = "BRIX9", expirationDate = "2024-09-16", expirationTime = "09:50:00 PM"},
+{key = "BRIX10", expirationDate = "2024-09-17", expirationTime = "12:30:00 AM"}
 }
 
 local Menu = gg.prompt({"KEY: "}, nil, {"text"})
