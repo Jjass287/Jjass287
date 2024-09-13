@@ -515,10 +515,69 @@ if speedmenubar == 20 then
 gg.getResults(999)
 gg.editAll("20", gg.TYPE_FLOAT)
 gg.clearResults()
-gg.toast("hahaha")
+else
+end
+if speedmenubar == 21 then
+gg.getResults(999)
+gg.editAll("21", gg.TYPE_FLOAT)
+gg.clearResults()
+else
+end
+if speedmenubar == 22 then
+gg.getResults(999)
+gg.editAll("22", gg.TYPE_FLOAT)
+gg.clearResults()
+else
+end
+if speedmenubar == 23 then
+gg.getResults(999)
+gg.editAll("23", gg.TYPE_FLOAT)
+gg.clearResults()
+else
+end
+if speedmenubar == 24 then
+gg.getResults(999)
+gg.editAll("24", gg.TYPE_FLOAT)
+gg.clearResults()
+else
+end
+if speedmenubar == 25 then
+gg.getResults(999)
+gg.editAll("25", gg.TYPE_FLOAT)
+gg.clearResults()
+else
+end
+if speedmenubar == 26 then
+gg.getResults(999)
+gg.editAll("26", gg.TYPE_FLOAT)
+gg.clearResults()
+else
+end
+if speedmenubar == 27 then
+gg.getResults(999)
+gg.editAll("27", gg.TYPE_FLOAT)
+gg.clearResults()
+else
+end
+if speedmenubar == 28 then
+gg.getResults(999)
+gg.editAll("28", gg.TYPE_FLOAT)
+gg.clearResults()
+else
+end
+if speedmenubar == 29 then
+gg.getResults(999)
+gg.editAll("29", gg.TYPE_FLOAT)
+gg.clearResults()
+else
+end
+if speedmenubar == 30 then
+gg.getResults(999)
+gg.editAll("30", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("SPEED HACK ACTIVATED")
 end
 end
-
 
 function nah()
 gg.setRanges(gg.REGION_C_ALLOC)
