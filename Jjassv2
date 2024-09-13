@@ -300,6 +300,28 @@ HexPatches.BrixMODZ("libanogs.so", 0x1749A4, "hC0 03 5F D6", 4);
 HexPatches.BrixMODZ("libanogs.so", 0x174B5C, "hC0 03 5F D6", 4);
 HexPatches.BrixMODZ("libanogs.so", 0x1753DC, "hC0 03 5F D6", 4);
 gg.toast("BYPASS AND ANTI CRASH ACTIVATED")
+function delay(seconds)
+    local start = os.time()
+    repeat until os.time() > start + seconds
+end
+delay(3)
+print("5 seconds have passed!")
+HexPatches.BrixMODZ("libRoosterNN.so", 0xB041DD, "h FB AF 2C 7C 35 F1 8D 11", 32);
+HexPatches.BrixMODZ("libRoosterNN.so", 0xFAE8EA, "h FB AF 2C 7C 35 F1 8D 11", 32);
+HexPatches.BrixMODZ("libRoosterNN.so", 0x68440A, "h FB AF 2C 7C 35 F1 8D 11", 32);
+HexPatches.BrixMODZ("libRoosterNN.so", 0x3B9C5B, "h FB AF 2C 7C 35 F1 8D 11", 32);
+HexPatches.BrixMODZ("libRoosterNN.so", 0x5371B6, "h FB AF 2C 7C 35 F1 8D 11", 32);
+HexPatches.BrixMODZ("libGCloudVoice.so", 0x9A8D53, "h 7F 48 EA D2 1B AB 7F DA", 32);
+HexPatches.BrixMODZ("libGCloudVoice.so", 0x24C393, "h 7F 48 EA D2 1B AB 7F DA", 32);
+HexPatches.BrixMODZ("libGCloudVoice.so", 0x4AB46A, "h 7F 48 EA D2 1B AB 7F DA", 32);
+HexPatches.BrixMODZ("libGCloudVoice.so", 0xB31A20, "h 7F 48 EA D2 1B AB 7F DA", 32);
+HexPatches.BrixMODZ("libGCloudVoice.so", 0x54C197, "h 7F 48 EA D2 1B AB 7F DA", 32);
+HexPatches.BrixMODZ("libGCloudVoice.so", 0x7D6572, "h 7F 48 EA D2 1B AB 7F DA", 32);
+HexPatches.BrixMODZ("libGCloudVoice.so", 0xA65F64, "h 7F 48 EA D2 1B AB 7F DA", 32);
+HexPatches.BrixMODZ("libGCloudVoice.so", 0xBB0D9C, "h 7F 48 EA D2 1B AB 7F DA", 32);
+HexPatches.BrixMODZ("libGCloudVoice.so", 0x254191, "h 7F 48 EA D2 1B AB 7F DA", 32);
+HexPatches.BrixMODZ("libGCloudVoice.so", 0x297CFA, "h 7F 48 EA D2 1B AB 7F DA", 32);
+gg.toast("ANTI REPORT ACTIVATED")
 end
 
 function skipt()
