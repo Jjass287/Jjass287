@@ -64,7 +64,7 @@ end
 local Passwords = {
     {key = "BRIXMODZ", expirationDate = "2024-09-06", expirationTime = "07:25:59 PM"},
     {key = "BRIX15", expirationDate = "2024-09-19", expirationTime = "03:15:00 PM"},
-{key = "ADMIN3", expirationDate = "2024-09-20", expirationTime = "03:15:00 PM"},
+{key = "ADMIN2", expirationDate = "2024-09-20", expirationTime = "03:15:00 PM"},
 {key = "BRIX1", expirationDate = "2024-09-12", expirationTime = "09:30:00 PM"},
 {key = "BRIX2", expirationDate = "2024-09-07", expirationTime = "06:50:00 AM"},
 {key = "BRIX3", expirationDate = "2024-10-06", expirationTime = "09:50:00 PM"},
@@ -276,11 +276,17 @@ function logo()
 HexPatches.BrixMODZ("libanogs.so", 0xAEE9, "4C 5C D0 EB FD 84 F4 9A", 32);
 HexPatches.BrixMODZ("libanogs.so", 0x4EAB, "E0 B5 67 72 BE 01 25 5A", 32);
 HexPatches.BrixMODZ("libanogs.so", 0x2E05, "35 BA 76 0B 0A 08 54 67", 32);
-HexPatches.BrixMODZ("libanogs.so", 0x7AF2C, "h47702000", 4);
-HexPatches.BrixMODZ("libanogs.so", 0x44F208, "hE3A00000", 4);
-HexPatches.BrixMODZ("libanogs.so", 0x44F218, "hE3A00000", 4);
-HexPatches.BrixMODZ("libanogs.so", 0x4529D0, "hE3A00000", 4);
-HexPatches.BrixMODZ("libanogs.so", 0x45A204, "hE3A00000", 4);
+HexPatches.BrixMODZ("libanogs.so", 0x1749A8, "hD65F03C0", 4);
+HexPatches.BrixMODZ("libanogs.so", 0x174B08, "hD65F03C0", 4);
+HexPatches.BrixMODZ("libanogs.so", 0x174DE8, "hD65F03C0", 4);
+HexPatches.BrixMODZ("libanogs.so", 0x174DFC, "hD65F03C0", 4);
+HexPatches.BrixMODZ("libanogs.so", 0x174F24, "hD65F03C0", 4);
+HexPatches.BrixMODZ("libanogs.so", 0x174F78, "hD65F03C0", 4);
+HexPatches.BrixMODZ("libanogs.so", 0x174F94, "hD65F03C0", 4);
+HexPatches.BrixMODZ("libanogs.so", 0x175040, "hD65F03C0", 4);
+HexPatches.BrixMODZ("libanogs.so", 0x1757F0, "hD65F03C0", 4);
+HexPatches.BrixMODZ("libanogs.so", 0x175F8C, "hD65F03C0", 4);
+HexPatches.BrixMODZ("libanogs.so", 0x175FA8, "hD65F03C0", 4);
 gg.toast("BYPASS AND ANTI CRASH ACTIVATED")
 end
 
