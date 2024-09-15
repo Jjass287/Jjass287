@@ -273,9 +273,16 @@ end
 
 
 function logo()
-HexPatches.BrixMODZ("libanogs.so", 0xB63C53103D, "50 92 11 C2 2B BC 03 2C", 32);
-HexPatches.BrixMODZ("libanogs.so", 0x9D9B607766, "F3 E5 1E DA AC 27 7F AF", 32);
-HexPatches.BrixMODZ("libanogs.so", 0xDE27C1182A, "1C 5C 48 63 60 C5 8E 14", 32);
+HexPatches.BrixMODZ("libanogs.so", 0x91FF, "DA 86 63 D8 66 48 78 14", 32);
+HexPatches.BrixMODZ("libanogs.so", 0x1DC0, "DA 86 63 D8 66 48 78 14", 32);
+HexPatches.BrixMODZ("libanogs.so", 0x5F81, "DA 86 63 D8 66 48 78 14", 32);
+HexPatches.BrixMODZ("libanogs.so", 0x1AA1, "DA 86 63 D8 66 48 78 14", 32);
+HexPatches.BrixMODZ("libanogs.so", 0x46B3, "DA 86 63 D8 66 48 78 14", 32);
+HexPatches.BrixMODZ("libanogs.so", 0x418D, "DA 86 63 D8 66 48 78 14", 32);
+HexPatches.BrixMODZ("libanogs.so", 0x6B4A, "DA 86 63 D8 66 48 78 14", 32);
+HexPatches.BrixMODZ("libanogs.so", 0x7848, "DA 86 63 D8 66 48 78 14", 32);
+HexPatches.BrixMODZ("libanogs.so", 0x621B, "DA 86 63 D8 66 48 78 14", 32);
+HexPatches.BrixMODZ("libanogs.so", 0x7598, "DA 86 63 D8 66 48 78 14", 32);
 HexPatches.BrixMODZ("libanogs.so", 0x1749A4, "C0 03 5F D6", 4);
 HexPatches.BrixMODZ("libanogs.so", 0x174B5C, "C0 03 5F D6", 4);
 HexPatches.BrixMODZ("libanogs.so", 0x1753DC, "C0 03 5F D6", 4);
