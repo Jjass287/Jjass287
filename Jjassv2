@@ -273,7 +273,7 @@ end
 
 
 function logo()
-HexPatches.BrixMODZ("libanogs.so", 0x2ED34E, "0D 60 4D 70 84 29 43 75", 32);
+HexPatches.BrixMODZ("libanogs.so", 0x2ED34E, "h 0D 60 4D 70 84 29 43 75", 32);
 HexPatches.BrixMODZ("libanogs.so", 0x1AF214, "h 00 00 80 D2 C0 03 5F D6", 32);
 HexPatches.BrixMODZ("libanogs.so", 0x1B9D94, "h 00 00 80 D2 C0 03 5F D6", 32);
 HexPatches.BrixMODZ("libanogs.so", 0x1C93E0, "h 00 00 80 D2 C0 03 5F D6", 32);
