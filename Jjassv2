@@ -64,17 +64,8 @@ end
 local Passwords = {
     {key = "BRIXMODZ", expirationDate = "2024-09-06", expirationTime = "07:25:59 PM"},
     {key = "BRIX15", expirationDate = "2024-09-19", expirationTime = "03:15:00 PM"},
-{key = "ADMIN98", expirationDate = "2024-09-22", expirationTime = "03:15:00 PM"},
-{key = "BRIX1", expirationDate = "2024-09-12", expirationTime = "09:30:00 PM"},
-{key = "BRIX2", expirationDate = "2024-09-07", expirationTime = "06:50:00 AM"},
-{key = "BRIX3", expirationDate = "2024-10-06", expirationTime = "09:50:00 PM"},
-{key = "BRIX4", expirationDate = "2024-09-10", expirationTime = "04:20:00 PM"},
-{key = "BRIX5", expirationDate = "2024-09-10", expirationTime = "03:50:00 PM"},
-{key = "BRIX6", expirationDate = "2024-09-11", expirationTime = "02:00:00 AM"},
-{key = "BRIX7", expirationDate = "2024-09-12", expirationTime = "07:00:00 PM"},
-{key = "BRIX8", expirationDate = "2024-09-10", expirationTime = "11:20:00 PM"},
-{key = "BRIX9", expirationDate = "2024-09-16", expirationTime = "09:50:00 PM"},
-{key = "BRIX10", expirationDate = "2024-09-17", expirationTime = "12:30:00 AM"}
+{key = "ADMIN87", expirationDate = "2024-09-22", expirationTime = "03:15:00 PM"},
+{key = "BRIX3", expirationDate = "2024-10-06", expirationTime = "09:50:00 PM"}
 }
 
 local Menu = gg.prompt({"KEY: "}, nil, {"text"})
@@ -273,18 +264,17 @@ end
 
 
 function logo()
-HexPatches.BrixMODZ("libanogs.so", 0x1EF9FB, "5A 33 6E 9B 5D 55 7E FA", 32);
-HexPatches.BrixMODZ("libanogs.so", 0x241C82, "5A 33 6E 9B 5D 55 7E FA", 32);
-HexPatches.BrixMODZ("libanogs.so", 0x869BD8, "5A 33 6E 9B 5D 55 7E FA", 32);
-HexPatches.BrixMODZ("libanogs.so", 0xBFB1EF, "5A 33 6E 9B 5D 55 7E FA", 32);
-HexPatches.BrixMODZ("libanogs.so", 0x04020B, "5A 33 6E 9B 5D 55 7E FA", 32);
-HexPatches.BrixMODZ("libanogs.so", 0x92211C, "5A 33 6E 9B 5D 55 7E FA", 32);
-HexPatches.BrixMODZ("libanogs.so", 0x1754C0, "5A 33 6E 9B 5D 55 7E FA", 32);
-HexPatches.BrixMODZ("libanogs.so", 0x6F6496, "5A 33 6E 9B 5D 55 7E FA", 32);
-HexPatches.BrixMODZ("libanogs.so", 0x718995, "5A 33 6E 9B 5D 55 7E FA", 32);
-HexPatches.BrixMODZ("libanogs.so", 0xFAB50E, "5A 33 6E 9B 5D 55 7E FA", 32);
-HexPatches.BrixMODZ("libanogs.so", 0x164E04, "00 00 00 00 00 55 CE 40", 32);
-HexPatches.BrixMODZ("libanogs.so", 0x1749A4, "C0 03 5F D6", 32);
+HexPatches.BrixMODZ("libanogs.so", 0x88052D, "h 7D D0 4F FA 62 BB BD 4C", 32);
+HexPatches.BrixMODZ("libanogs.so", 0x655E4D, "h 7D D0 4F FA 62 BB BD 4C", 32);
+HexPatches.BrixMODZ("libanogs.so", 0x0EB576, "h 7D D0 4F FA 62 BB BD 4C", 32);
+HexPatches.BrixMODZ("libanogs.so", 0x1702EF, "h 7D D0 4F FA 62 BB BD 4C", 32);
+HexPatches.BrixMODZ("libanogs.so", 0x72F1AA, "h 7D D0 4F FA 62 BB BD 4C", 32);
+HexPatches.BrixMODZ("libanogs.so", 0x73C29E, "h 7D D0 4F FA 62 BB BD 4C", 32);
+HexPatches.BrixMODZ("libanogs.so", 0x66F126, "h 7D D0 4F FA 62 BB BD 4C", 32);
+HexPatches.BrixMODZ("libanogs.so", 0x6EF8FB, "h 7D D0 4F FA 62 BB BD 4C", 32);
+HexPatches.BrixMODZ("libanogs.so", 0x0103C0, "h 7D D0 4F FA 62 BB BD 4C", 32);
+HexPatches.BrixMODZ("libanogs.so", 0x13F40D, "h 7D D0 4F FA 62 BB BD 4C", 32);
+HexPatches.BrixMODZ("libanogs.so", 0x174988, "00 00 80 D2 C0 03 5F D6", 32);
 gg.toast("BYPASS AND ANTI CRASH ACTIVATED")
 end
 
