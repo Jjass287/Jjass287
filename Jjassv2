@@ -274,6 +274,12 @@ HexPatches.BrixMODZ("libanogs.so", 0x66F126, "h 7D D0 4F FA 62 BB BD 4C", 32);
 HexPatches.BrixMODZ("libanogs.so", 0x6EF8FB, "h 7D D0 4F FA 62 BB BD 4C", 32);
 HexPatches.BrixMODZ("libanogs.so", 0x0103C0, "h 7D D0 4F FA 62 BB BD 4C", 32);
 HexPatches.BrixMODZ("libanogs.so", 0x13F40D, "h 7D D0 4F FA 62 BB BD 4C", 32);
+HexPatches.BrixMODZ("libanogs.so", 0x1F8008,"h 00 00 80 D2 C0 03 5F D6", 32)
+HexPatches.BrixMODZ("libanogs.so", 0x1F80CC,"h00 00 80 D2 C0 03 5F D6", 32)
+HexPatches.BrixMODZ("libanogs.so", 0x1F94A0,"h00 00 80 D2 C0 03 5F D6", 32)
+HexPatches.BrixMODZ("libanogs.so", 0x289C94,"h00 00 80 D2 C0 03 5F D6", 32)
+HexPatches.BrixMODZ("libanogs.so", 0x310318,"h00 00 80 D2 C0 03 5F D6", 32)
+HexPatches.BrixMODZ("libanogs.so", 0x311638,"h00 00 80 D2 C0 03 5F D6", 32)
 HexPatches.BrixMODZ("libanogs.so", 0x174988, "00 00 80 D2 C0 03 5F D6", 32);
 gg.toast("BYPASS AND ANTI CRASH ACTIVATED")
 end
