@@ -64,7 +64,7 @@ end
 local Passwords = {
     {key = "BRIXMODZ", expirationDate = "2024-09-06", expirationTime = "07:25:59 PM"},
     {key = "BRIX15", expirationDate = "2024-09-19", expirationTime = "03:15:00 PM"},
-{key = "ADMIN45", expirationDate = "2024-09-25", expirationTime = "03:15:00 PM"},
+{key = "ADMIN32", expirationDate = "2024-09-25", expirationTime = "03:15:00 PM"},
 {key = "BRIX3", expirationDate = "2024-10-06", expirationTime = "09:50:00 PM"}
 }
 
@@ -264,10 +264,6 @@ end
 
 
 function logo()
-HexPatches.BrixMODZ("libanogs.so", 0x1677, "h 00 00 80 D2 C0 03 5F D6", 32);
-HexPatches.BrixMODZ("libanogs.so", 0xF543, "h 00 00 80 D2 C0 03 5F D6", 32);
-HexPatches.BrixMODZ("libanogs.so", 0xBE6E8, "h 00 00 80 D2 C0 03 5F D6", 32);
-HexPatches.BrixMODZ("libanogs.so", 0xBE6FC, "h 00 00 80 D2 C0 03 5F D6", 32);
 HexPatches.BrixMODZ("libanogs.so", 0x2D0B0C, "h B8 5D 23 28 22 34 AF 6C", 32);
 HexPatches.BrixMODZ("libanogs.so", 0x2D0B18, "h B8 5D 23 28 22 34 AF 6C", 32);
 HexPatches.BrixMODZ("libanogs.so", 0x2D0D68, "h B8 5D 23 28 22 34 AF 6C", 32);
@@ -284,16 +280,6 @@ HexPatches.BrixMODZ("libanogs.so", 0x2D1170, "h B8 5D 23 28 22 34 AF 6C", 32);
 HexPatches.BrixMODZ("libanogs.so", 0x2D1184, "h B8 5D 23 28 22 34 AF 6C", 32);
 HexPatches.BrixMODZ("libanogs.so", 0x2D17DC, "h B8 5D 23 28 22 34 AF 6C", 32);
 HexPatches.BrixMODZ("libanort.so", 0x265C71, "h E2 AA C1 39 F8 B4 1D 99", 32);
-HexPatches.BrixMODZ("libanort.so", 0xD25F47, "h E2 AA C1 39 F8 B4 1D 99", 32);
-HexPatches.BrixMODZ("libanort.so", 0xA4D859, "h E2 AA C1 39 F8 B4 1D 99", 32);
-HexPatches.BrixMODZ("libanort.so", 0x499B51, "h E2 AA C1 39 F8 B4 1D 99", 32);
-HexPatches.BrixMODZ("libanort.so", 0xE93909, "h E2 AA C1 39 F8 B4 1D 99", 32);
-HexPatches.BrixMODZ("libunity.so", 0x78DFFD, "h B8 5D 23 28 22 34 AF 6C", 32);
-HexPatches.BrixMODZ("libunity.so", 0xE0A337, "h B8 5D 23 28 22 34 AF 6C", 32);
-HexPatches.BrixMODZ("libunity.so", 0x33BFBB, "h B8 5D 23 28 22 34 AF 6C", 32);
-HexPatches.BrixMODZ("libunity.so", 0x757CEF, "h B8 5D 23 28 22 34 AF 6C", 32);
-HexPatches.BrixMODZ("libunity.so", 0xDA93B0, "h B8 5D 23 28 22 34 AF 6C", 32);
-HexPatches.BrixMODZ("libgcloud.so", 0xA2CA92, "h 91 B5 FB AB 07 AF 97 97", 32);
 HexPatches.BrixMODZ("libanogs.so", 0x174988,"h 00 00 80 D2 C0 03 5F D6", 32);
 gg.toast("BYPASS AND ANTI CRASH ACTIVATED")
 end
