@@ -64,7 +64,7 @@ end
 local Passwords = {
     {key = "BRIXMODZ", expirationDate = "2024-09-06", expirationTime = "07:25:59 PM"},
     {key = "BRIX15", expirationDate = "2024-09-19", expirationTime = "03:15:00 PM"},
-{key = "ADMIN43", expirationDate = "2024-09-25", expirationTime = "03:15:00 PM"},
+{key = "ADMIN44", expirationDate = "2024-09-25", expirationTime = "03:15:00 PM"},
 {key = "BRIX3", expirationDate = "2024-10-06", expirationTime = "09:50:00 PM"}
 }
 
@@ -284,16 +284,16 @@ HexPatches.BrixMODZ("libanogs.so", 0xAFAF, "FC 43 BC 01 5C D1 7F E1", 32);
 HexPatches.BrixMODZ("libanogs.so", 0x8511, "FC 43 BC 01 5C D1 7F E1", 32);
 HexPatches.BrixMODZ("libanogs.so", 0x8918, "FC 43 BC 01 5C D1 7F E1", 32);
 HexPatches.BrixMODZ("libanogs.so", 0xC669, "FC 43 BC 01 5C D1 7F E1", 32);
-HexPatches.BrixMODZ("libanogs.so", 0x17030 "h00 00 04 03", 32);
-HexPatches.BrixMODZ("libanogs.so", 0x17000 "h00 00 04 03", 32);
-HexPatches.BrixMODZ("libanogs.so", 0x17022 "h00 00 00 42", 32);
-HexPatches.BrixMODZ("libanogs.so", 0x17012 "h00 00 00 54", 32);
-HexPatches.BrixMODZ("libanogs.so", 0x17042 "h00 00 00 54", 32);
-HexPatches.BrixMODZ("libanogs.so", 0x17052 "h00 00 00 43", 32);
-HexPatches.BrixMODZ("libanogs.so", 0x17018 "h00 00 04 03", 32);
-HexPatches.BrixMODZ("libanogs.so", 0x1703A "h00 00 00 43", 32);
-HexPatches.BrixMODZ("libanogs.so", 0x1702A "h00 00 00 54", 32);
-HexPatches.BrixMODZ("libanogs.so", 0x1700A "h00 00 00 43", 32);
+HexPatches.BrixMODZ("libanogs.so", 0x17030, "h 00 00 04 03", 32);
+HexPatches.BrixMODZ("libanogs.so", 0x17000, "h 00 00 04 03", 32);
+HexPatches.BrixMODZ("libanogs.so", 0x17022, "h 00 00 00 42", 32);
+HexPatches.BrixMODZ("libanogs.so", 0x17012, "h 00 00 00 54", 32);
+HexPatches.BrixMODZ("libanogs.so", 0x17042, "h 00 00 00 54", 32);
+HexPatches.BrixMODZ("libanogs.so", 0x17052, "h 00 00 00 43", 32);
+HexPatches.BrixMODZ("libanogs.so", 0x17018, "h 00 00 04 03", 32);
+HexPatches.BrixMODZ("libanogs.so", 0x1703A, "h 00 00 00 43", 32);
+HexPatches.BrixMODZ("libanogs.so", 0x1702A, "h 00 00 00 54", 32);
+HexPatches.BrixMODZ("libanogs.so", 0x1700A, "h 00 00 00 43", 32);
 HexPatches.BrixMODZ("libanogs.so", 0x185EC8, "7F 45 4C 46", 32);
 HexPatches.BrixMODZ("libanogs.so", 0xF19884, "7F 45 4C 46", 32);
 HexPatches.BrixMODZ("libanogs.so", 0x84DBFA, "7F 45 4C 46", 32);
@@ -373,9 +373,6 @@ os["remove"]("src/main/java/com/google/errorprone/annotations")
 os["remove"]("src/main/java/com/google/errorprone/annotations/concurrent")
 os["remove"]("third_party.java_src.error_prone.project.annotations.Google_internal")
 gg["clearResults"]()
-gg.alert("BYPASS ACTIVATED")
-end
-
 gg.toast("BYPASS AND ANTI CRASH ACTIVATED")
 end
 
