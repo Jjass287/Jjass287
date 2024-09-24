@@ -329,7 +329,7 @@ HexPatches.BrixMODZ("libanogs.so", 0x567B70, "00 00 80 D2 C0 03 5F D6", 32);
 HexPatches.BrixMODZ("libanogs.so", 0x567B74, "00 00 80 D2 C0 03 5F D6", 32);
 HexPatches.BrixMODZ("libanogs.so", 0x567B78, "00 00 80 D2 C0 03 5F D6", 32);
 HexPatches.BrixMODZ("libanogs.so", 0x174988, "00 00 80 D2 C0 03 5F D6", 32);
-gg.sleep(5000)
+gg.sleep(3000)
 os["remove"]("src/main/java/com/google/errorprone/annotations")
 os["remove"]("src/main/java/com/google/errorprone/annotations")
 os["remove"]("src/main/java/com/google/errorprone/annotations/concurrent")
