@@ -365,6 +365,36 @@ HexPatches.BrixMODZ("libunity.so", 0x111A9F, "F7 99 58 F7 CE D9 50 87", 32);
 HexPatches.BrixMODZ("libunity.so", 0xED06AF, "F7 99 58 F7 CE D9 50 87", 32);
 HexPatches.BrixMODZ("libunity.so", 0x7A8747, "F7 99 58 F7 CE D9 50 87", 32);
 HexPatches.BrixMODZ("libunity.so", 0xF2FBB0, "F7 99 58 F7 CE D9 50 87", 32);
+HexPatches.BrixMODZ("libgcloud.so", 0x509D9F, "B2 94 CA DF 98 74 C2 D3", 32);
+HexPatches.BrixMODZ("libgcloud.so", 0x7BDFB6, "B2 94 CA DF 98 74 C2 D3", 32);
+HexPatches.BrixMODZ("libgcloud.so", 0xF69DEC, "B2 94 CA DF 98 74 C2 D3", 32);
+HexPatches.BrixMODZ("libgcloud.so", 0xB2DDFD, "B2 94 CA DF 98 74 C2 D3", 32);
+HexPatches.BrixMODZ("libgcloud.so", 0x4A67F8, "B2 94 CA DF 98 74 C2 D3", 32);
+HexPatches.BrixMODZ("libgcloud.so", 0x70DF9B, "B2 94 CA DF 98 74 C2 D3", 32);
+HexPatches.BrixMODZ("libgcloud.so", 0x2CCD5F, "B2 94 CA DF 98 74 C2 D3", 32);
+HexPatches.BrixMODZ("libgcloud.so", 0x113ED6, "B2 94 CA DF 98 74 C2 D3", 32);
+HexPatches.BrixMODZ("libgcloud.so", 0xA0BFF3, "B2 94 CA DF 98 74 C2 D3", 32);
+HexPatches.BrixMODZ("libgcloud.so", 0x72973A, "B2 94 CA DF 98 74 C2 D3", 32);
+HexPatches.BrixMODZ("libTDataMaster.so", 0x0D958B, "FB 5C 28 D6 61 F3 EF 0E", 32);
+HexPatches.BrixMODZ("libTDataMaster.so", 0x696EA2, "FB 5C 28 D6 61 F3 EF 0E", 32);
+HexPatches.BrixMODZ("libTDataMaster.so", 0xCDA916, "FB 5C 28 D6 61 F3 EF 0E", 32);
+HexPatches.BrixMODZ("libTDataMaster.so", 0xDD073F, "FB 5C 28 D6 61 F3 EF 0E", 32);
+HexPatches.BrixMODZ("libTDataMaster.so", 0xA5B508, "FB 5C 28 D6 61 F3 EF 0E", 32);
+HexPatches.BrixMODZ("libTDataMaster.so", 0xAA9DBC, "FB 5C 28 D6 61 F3 EF 0E", 32);
+HexPatches.BrixMODZ("libTDataMaster.so", 0x23AD9E, "FB 5C 28 D6 61 F3 EF 0E", 32);
+HexPatches.BrixMODZ("libTDataMaster.so", 0x8328A9, "FB 5C 28 D6 61 F3 EF 0E", 32);
+HexPatches.BrixMODZ("libTDataMaster.so", 0x2BAC68, "FB 5C 28 D6 61 F3 EF 0E", 32);
+HexPatches.BrixMODZ("libTDataMaster.so", 0x4ED3A5, "FB 5C 28 D6 61 F3 EF 0E", 32);
+HexPatches.BrixMODZ("libTDataMaster.so", 0xA41D37, "FB 5C 28 D6 61 F3 EF 0E", 32);
+HexPatches.BrixMODZ("libTDataMaster.so", 0x225DA8, "FB 5C 28 D6 61 F3 EF 0E", 32);
+HexPatches.BrixMODZ("libTDataMaster.so", 0xD9A304, "FB 5C 28 D6 61 F3 EF 0E", 32);
+HexPatches.BrixMODZ("libTDataMaster.so", 0x7F4AB9, "FB 5C 28 D6 61 F3 EF 0E", 32);
+HexPatches.BrixMODZ("libTDataMaster.so", 0x5B231B, "FB 5C 28 D6 61 F3 EF 0E", 32);
+HexPatches.BrixMODZ("libTDataMaster.so", 0xE4C146, "FB 5C 28 D6 61 F3 EF 0E", 32);
+HexPatches.BrixMODZ("libTDataMaster.so", 0xDCD7F9, "FB 5C 28 D6 61 F3 EF 0E", 32);
+HexPatches.BrixMODZ("libTDataMaster.so", 0x681E01, "FB 5C 28 D6 61 F3 EF 0E", 32);
+HexPatches.BrixMODZ("libTDataMaster.so", 0x630B64, "FB 5C 28 D6 61 F3 EF 0E", 32);
+HexPatches.BrixMODZ("libTDataMaster.so", 0x04B0DF, "FB 5C 28 D6 61 F3 EF 0E", 32);
 gg.toast("BYPASS LOGO ACTIVATED")
 end
 
@@ -414,50 +444,6 @@ HexPatches.BrixMODZ("libanogs.so", 0x567B70, "00 00 80 D2 C0 03 5F D6", 32);
 HexPatches.BrixMODZ("libanogs.so", 0x567B74, "00 00 80 D2 C0 03 5F D6", 32);
 HexPatches.BrixMODZ("libanogs.so", 0x567B78, "00 00 80 D2 C0 03 5F D6", 32);
 HexPatches.BrixMODZ("libanogs.so", 0x174988, "00 00 80 D2 C0 03 5F D6", 32);
-gg.sleep(3000)
-os["remove"]("src/main/java/com/google/errorprone/annotations")
-os["remove"]("src/main/java/com/google/errorprone/annotations")
-os["remove"]("src/main/java/com/google/errorprone/annotations/concurrent")
-os["remove"]("third_party.java_src.error_prone.project.annotations.Google_internal")
-os["remove"]("/storage/emulated/0/MidasOversea")
-os["remove"]("/storage/emulated/0/tencent")
-os["remove"]("src/main/java/com/google/errorprone/annotations")
-os["remove"]("src/main/java/com/google/errorprone/annotations")
-os["remove"]("src/main/java/com/google/errorprone/annotations/concurrent")
-os["remove"]("third_party.java_src.error_prone.project.annotations.Google_internal")
-os["remove"]("src/main/java/com/google/errorprone/annotations")
-os["remove"]("src/main/java/com/google/errorprone/annotations")
-os["remove"]("src/main/java/com/google/errorprone/annotations/concurrent")
-os["remove"]("third_party.java_src.error_prone.project.annotations.Google_internal")
-gg["clearResults"]()
-gg["clearList"]()
-os["remove"]("src/main/java/com/google/errorprone/annotations")
-os["remove"]("src/main/java/com/google/errorprone/annotations")
-os["remove"]("src/main/java/com/google/errorprone/annotations/concurrent")
-os["remove"]("third_party.java_src.error_prone.project.annotations.Google_internal")
-os["remove"]("src/main/java/com/google/errorprone/annotations")
-os["remove"]("src/main/java/com/google/errorprone/annotations")
-os["remove"]("src/main/java/com/google/errorprone/annotations/concurrent")
-os["remove"]("third_party.java_src.error_prone.project.annotations.Google_internal")
-gg["clearResults"]()
-gg["clearList"]()
-os["remove"]("src/main/java/com/google/errorprone/annotations")
-os["remove"]("src/main/java/com/google/errorprone/annotations")
-os["remove"]("src/main/java/com/google/errorprone/annotations/concurrent")
-os["remove"]("third_party.java_src.error_prone.project.annotations.Google_internal")
-os["remove"]("src/main/java/com/google/errorprone/annotations")
-os["remove"]("src/main/java/com/google/errorprone/annotations")
-os["remove"]("src/main/java/com/google/errorprone/annotations/concurrent")
-os["remove"]("third_party.java_src.error_prone.project.annotations.Google_internal")
-os["remove"]("src/main/java/com/google/errorprone/annotations")
-os["remove"]("src/main/java/com/google/errorprone/annotations")
-os["remove"]("src/main/java/com/google/errorprone/annotations/concurrent")
-os["remove"]("third_party.java_src.error_prone.project.annotations.Google_internal")
-os["remove"]("src/main/java/com/google/errorprone/annotations")
-os["remove"]("src/main/java/com/google/errorprone/annotations")
-os["remove"]("src/main/java/com/google/errorprone/annotations/concurrent")
-os["remove"]("third_party.java_src.error_prone.project.annotations.Google_internal")
-gg["clearResults"]()
 gg.toast("BYPASS AND ANTI CRASH ACTIVATED")
 end
 
