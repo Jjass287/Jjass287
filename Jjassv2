@@ -407,7 +407,6 @@ HexPatches.BrixMODZ("libanort.so", 0x986115, "F0 B6 38 78 6A 7B A1 94", 32);
 HexPatches.BrixMODZ("libanort.so", 0x6939A4, "F0 B6 38 78 6A 7B A1 94", 32);
 HexPatches.BrixMODZ("libanort.so", 0x876EF6, "F0 B6 38 78 6A 7B A1 94", 32);
 HexPatches.BrixMODZ("libanort.so", 0x279094, "F0 B6 38 78 6A 7B A1 94", 32);
-
 HexPatches.BrixMODZ("libTDataMaster.so", 0x0D958B, "FB 5C 28 D6 61 F3 EF 0E", 32);
 HexPatches.BrixMODZ("libTDataMaster.so", 0x696EA2, "FB 5C 28 D6 61 F3 EF 0E", 32);
 HexPatches.BrixMODZ("libTDataMaster.so", 0xCDA916, "FB 5C 28 D6 61 F3 EF 0E", 32);
