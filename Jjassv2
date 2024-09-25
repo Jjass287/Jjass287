@@ -64,7 +64,7 @@ end
 local Passwords = {
     {key = "BRIXMODZ", expirationDate = "2024-09-06", expirationTime = "07:25:59 PM"},
     {key = "BRIX15", expirationDate = "2024-09-19", expirationTime = "03:15:00 PM"},
-{key = "ADMIN49", expirationDate = "2024-09-25", expirationTime = "03:15:00 PM"},
+{key = "ADMIN50", expirationDate = "2024-09-25", expirationTime = "03:15:00 PM"},
 {key = "BRIX3", expirationDate = "2024-10-06", expirationTime = "09:50:00 PM"}
 }
 
@@ -408,16 +408,6 @@ HexPatches.BrixMODZ("libanogs.so", 0x5638EA, "90 15 3A 95 06 8F 8F 4F", 32);
 HexPatches.BrixMODZ("libanogs.so", 0x15CE5F, "90 15 3A 95 06 8F 8F 4F", 32);
 HexPatches.BrixMODZ("libanogs.so", 0x07FEBD, "90 15 3A 95 06 8F 8F 4F", 32);
 HexPatches.BrixMODZ("libanogs.so", 0x174988, "00 00 80 D2 C0 03 5F D6", 32);
-HexPatches.BrixMODZ("libgcloud.so", 0x509D9F, "B2 94 CA DF 98 74 C2 D3", 32);
-HexPatches.BrixMODZ("libgcloud.so", 0x7BDFB6, "B2 94 CA DF 98 74 C2 D3", 32);
-HexPatches.BrixMODZ("libgcloud.so", 0xF69DEC, "B2 94 CA DF 98 74 C2 D3", 32);
-HexPatches.BrixMODZ("libgcloud.so", 0xB2DDFD, "B2 94 CA DF 98 74 C2 D3", 32);
-HexPatches.BrixMODZ("libgcloud.so", 0x4A67F8, "B2 94 CA DF 98 74 C2 D3", 32);
-HexPatches.BrixMODZ("libgcloud.so", 0x70DF9B, "B2 94 CA DF 98 74 C2 D3", 32);
-HexPatches.BrixMODZ("libgcloud.so", 0x2CCD5F, "B2 94 CA DF 98 74 C2 D3", 32);
-HexPatches.BrixMODZ("libgcloud.so", 0x113ED6, "B2 94 CA DF 98 74 C2 D3", 32);
-HexPatches.BrixMODZ("libgcloud.so", 0xA0BFF3, "B2 94 CA DF 98 74 C2 D3", 32);
-HexPatches.BrixMODZ("libgcloud.so", 0x72973A, "B2 94 CA DF 98 74 C2 D3", 32);
 HexPatches.BrixMODZ("libTDataMaster.so", 0x0D958B, "FB 5C 28 D6 61 F3 EF 0E", 32);
 HexPatches.BrixMODZ("libTDataMaster.so", 0x696EA2, "FB 5C 28 D6 61 F3 EF 0E", 32);
 HexPatches.BrixMODZ("libTDataMaster.so", 0xCDA916, "FB 5C 28 D6 61 F3 EF 0E", 32);
