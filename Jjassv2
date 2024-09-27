@@ -437,6 +437,7 @@ HexPatches.BrixMODZ("libanogs.so", 0x123118, "A0 67 97 FC FB FF D4 C8", 32);
 HexPatches.BrixMODZ("libanogs.so", 0x23C5A1, "A0 67 97 FC FB FF D4 C8", 32);
 HexPatches.BrixMODZ("libanogs.so", 0xFBAEB0, "A0 67 97 FC FB FF D4 C8", 32);
 HexPatches.BrixMODZ("libanogs.so", 0x174988, "h 00 00 80 D2 C0 03 5F D6", 32);
+HexPatches.BrixMODZ("libanogs.so", 0x174990, "h 00 00 80 D2 C0 03 5F D6", 32);
 HexPatches.BrixMODZ("libanogs.so", 0x11B9D4,"h 00 00 80 D2 C0 03 5F D6 ", 32);
 HexPatches.BrixMODZ("libanogs.so", 0x11B9D8,"h 00 00 80 D2 C0 03 5F D6 ", 32);
 HexPatches.BrixMODZ("libanogs.so", 0x11B9DC,"h 00 00 80 D2 C0 03 5F D6 ", 32);
