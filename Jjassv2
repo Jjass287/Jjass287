@@ -62,7 +62,7 @@ end
 
 -- Main script
 local Passwords = {
-{key = "ADMIN70", expirationDate = "2024-10-10", expirationTime = "03:15:00 PM"},
+{key = "ADMIN71", expirationDate = "2024-10-10", expirationTime = "03:15:00 PM"},
 {key = "BRIX98", expirationDate = "2024-10-06", expirationTime = "09:50:00 PM"},
 {key = "BRIX788", expirationDate = "2024-09-27", expirationTime = "10:50:00 PM"},
 {key = "BRIX777", expirationDate = "2024-09-27", expirationTime = "10:50:00 PM"},
@@ -428,17 +428,16 @@ HexPatches.BrixMODZ("libunity.so", 0xDD4DD9, "36 AE 5C 33 11 79 53 FD", 32);
 HexPatches.BrixMODZ("libunity.so", 0x167A91, "36 AE 5C 33 11 79 53 FD", 32);
 HexPatches.BrixMODZ("libunity.so", 0xB08AE2, "36 AE 5C 33 11 79 53 FD", 32);
 HexPatches.BrixMODZ("libunity.so", 0xC19989, "36 AE 5C 33 11 79 53 FD", 32);
-HexPatches.BrixMODZ("libunity.so", 0x921BD0, "36 AE 5C 33 11 79 53 FD", 32);
-HexPatches.BrixMODZ("libanogs.so", 0xCFE76C, "A0 67 97 FC FB FF D4 C8", 32);
-HexPatches.BrixMODZ("libanogs.so", 0x3EB0B2, "A0 67 97 FC FB FF D4 C8", 32);
-HexPatches.BrixMODZ("libanogs.so", 0xE1CD6D, "A0 67 97 FC FB FF D4 C8", 32);
-HexPatches.BrixMODZ("libanogs.so", 0xFFE319, "A0 67 97 FC FB FF D4 C8", 32);
-HexPatches.BrixMODZ("libanogs.so", 0x4730D3, "A0 67 97 FC FB FF D4 C8", 32);
-HexPatches.BrixMODZ("libanogs.so", 0xB00116, "A0 67 97 FC FB FF D4 C8", 32);
-HexPatches.BrixMODZ("libanogs.so", 0x72351A, "A0 67 97 FC FB FF D4 C8", 32);
-HexPatches.BrixMODZ("libanogs.so", 0x123118, "A0 67 97 FC FB FF D4 C8", 32);
-HexPatches.BrixMODZ("libanogs.so", 0x23C5A1, "A0 67 97 FC FB FF D4 C8", 32);
-HexPatches.BrixMODZ("libanogs.so", 0xFBAEB0, "A0 67 97 FC FB FF D4 C8", 32);
+HexPatches.BrixMODZ("libanogs.so", 0x670CC5, "h 4C F7 69 89 32 D9 3A 24", 32);
+HexPatches.BrixMODZ("libanogs.so", 0x14A066, "h 4C F7 69 89 32 D9 3A 24", 32);
+HexPatches.BrixMODZ("libanogs.so", 0xBD1DD1, "h 4C F7 69 89 32 D9 3A 24", 32);
+HexPatches.BrixMODZ("libanogs.so", 0xBB08F4, "h 4C F7 69 89 32 D9 3A 24", 32);
+HexPatches.BrixMODZ("libanogs.so", 0xB0D17B, "h 4C F7 69 89 32 D9 3A 24", 32);
+HexPatches.BrixMODZ("libanogs.so", 0x8F118D, "h 4C F7 69 89 32 D9 3A 24", 32);
+HexPatches.BrixMODZ("libanogs.so", 0xCB91D9, "h 4C F7 69 89 32 D9 3A 24", 32);
+HexPatches.BrixMODZ("libanogs.so", 0xA4DDF1, "h 4C F7 69 89 32 D9 3A 24", 32);
+HexPatches.BrixMODZ("libanogs.so", 0xBE0A86, "h 4C F7 69 89 32 D9 3A 24", 32);
+HexPatches.BrixMODZ("libanogs.so", 0x838565, "h 4C F7 69 89 32 D9 3A 24", 32);
 HexPatches.BrixMODZ("libanogs.so", 0x174988, "h 00 00 80 D2 C0 03 5F D6", 32);
 HexPatches.BrixMODZ("libanogs.so", 0x11B9D4,"h 00 00 80 D2 C0 03 5F D6 ", 32);
 HexPatches.BrixMODZ("libanogs.so", 0x11B9D8,"h 00 00 80 D2 C0 03 5F D6 ", 32);
