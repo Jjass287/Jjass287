@@ -1,5 +1,5 @@
 function lq() 
-gg.alert("Welcome") 
+gg.alert("ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ʙʀɪxᴍᴏᴅᴢ") 
 function unXXX(str64) 
     local b64chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/' 
     local temp={} 
@@ -180,8 +180,6 @@ end
  end 
 end 
 lq()
-
-gg.alert("ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ʙʀɪxᴍᴏᴅᴢ")
 
 if gg.isPackageInstalled("com.ZENIN") then print("⛔ 𝙿𝙻𝙴𝙰𝚂𝙴 𝚄𝙽𝙸𝙽𝚂𝚃𝙰𝙻𝙻 𝙳𝙴𝙲𝚁𝚈𝙿𝚃 𝙶𝙶 𝙼𝙾𝙳 ⛔") os.exit() end
 
