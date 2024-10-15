@@ -560,8 +560,10 @@ e = gg.prompt({
 "• WALL SHOT [IN-GAME]",
 "• SLOW FALL [IN-GAME]",
 "• FROG JUMP [IN-GAME]",
+"• POTATO GRAPHICS [IN-GAME]",
 "◻️ ʙᴀᴄᴋ", 
 }, nil, {
+    "checkbox",
     "checkbox",
     "checkbox",
     "checkbox",
@@ -613,7 +615,8 @@ if e[21] == true then reload() end
 if e[22] == true then shot() end
 if e[23] == true then wallhack() end
 if e[24] == true then frog() end
-if e[25] == true then home() end
+if e[25] == true then potato() end
+if e[26] == true then home() end
 end
 end
 
@@ -1631,7 +1634,16 @@ SearchWrite(Search, Write, Type)
 gg.toast("Fʀᴏɢ Jᴜᴍᴘ Aᴄᴛɪᴠᴀᴛᴇ")
 end
 
-
+function potato()
+gg.setRanges(gg.REGION_VIDEO)
+gg.setVisible(false)
+gg.searchNumber("16", gg.TYPE_FLOAT)
+gg.refineNumber("16", gg.TYPE_FLOAT)
+gg.getResults(9999)
+gg.editAll("0", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("POTATO GRAPHICS ACTIVATED")
+end
 
 
 function A3() 
