@@ -551,7 +551,7 @@ e = gg.prompt({
 "• HIGH JUMP MP | BR [IN-GAME]",
 "• LONG HEAD [IN-GAME]",
 "• INFINITE SLIDE [IN-GAME]",
-"• HITBOX [IN-GAME]",
+"• EXPANDED HITBOX [IN-GAME]",
 "• AIM SMOOTH ADJUSTABLE [IN-GAME]",
 "• REDLINE ALL DEVICE [IN-GAME]",
 "• HIGH JUMP ADJUSTABLE",
@@ -561,8 +561,12 @@ e = gg.prompt({
 "• SLOW FALL [IN-GAME]",
 "• FROG JUMP [IN-GAME]",
 "• POTATO GRAPHICS [IN-GAME]",
+"• STATIC HITBOX [IN-GAME]",
+"• WALL CLIMB [IN-GAME]",
 "◻️ ʙᴀᴄᴋ", 
 }, nil, {
+    "checkbox",
+    "checkbox",
     "checkbox",
     "checkbox",
     "checkbox",
@@ -616,7 +620,9 @@ if e[22] == true then shot() end
 if e[23] == true then wallhack() end
 if e[24] == true then frog() end
 if e[25] == true then potato() end
-if e[26] == true then home() end
+if e[26] == true then static() end
+if e[27] == true then wallclimb() end
+if e[27] == true then home() end
 end
 end
 
@@ -1645,6 +1651,31 @@ gg.clearResults()
 gg.toast("POTATO GRAPHICS ACTIVATED")
 end
 
+function static()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("4.0F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+local results = gg.getResults(100)
+if #results == 0 then
+    gg.alert("No results found for the value.")
+    return
+end
+gg.alert("Found " .. #results .. " results.")
+gg.editAll("9999999", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("Hitbox Activated")
+end
+
+function wallclimb()
+function SearchWrite(Search, Write, Type) gg.clearResults() gg.setVisible(false) gg.searchNumber(Search[1][1], Type) local count = gg.getResultCount() local result = gg.getResults(count) gg.clearResults() local data = {} local base = Search[1][2] if (count > 0) then for i, v in ipairs(result) do v.isUseful = true end for k=2, #Search do local tmp = {} local offset = Search[k][2] - base local num = Search[k][1] for i, v in ipairs(result) do tmp[#tmp+1] = {} tmp[#tmp].address = v.address + offset tmp[#tmp].flags = v.flags end tmp = gg.getValues(tmp) for i, v in ipairs(tmp) do if ( tostring(v.value) ~= tostring(num) ) then result[i].isUseful = false end end end for i, v in ipairs(result) do if (v.isUseful) then data[#data+1] = v.address end end if (#data > 0) then gg.toast('VALUE FOUND '..#data..' EDITED') local t = {} local base = Search[1][2] for i=1, #data do for k, w in ipairs(Write) do offset = w[2] - base t[#t+1] = {} t[#t].address = data[i] + offset t[#t].flags = Type t[#t].value = w[1] if (w[3] == true) then local item = {} item[#item+1] = t[#t] item[#item].freeze = true gg.addListItems(item) end end end gg.setValues(t) else gg.alert('VALUE NOT FOUND') return false end else gg.alert('VALUE NOT FOUND') return false end end
+EPICSXZ = 4
+      gg.setRanges(32)
+      local Epicsxz3 = 16
+      local Name ="WALLCILMB"
+      local Epicsxz1 = {{0.05000000075, 0}, {1.0, -12}}
+      local Epicsxz2 = {{EPICSXZ, 4}}
+      SearchWrite(Epicsxz1, Epicsxz2, Epicsxz3)
+gg.toast("Wᴀʟʟ Cʟɪᴍʙ Aᴄᴛɪᴠᴀᴛᴇ")
+end
 
 function A3() 
 
