@@ -83,7 +83,7 @@ end
    lqsa=gg.alert('Enter Your Key:','Yes','Exit') 
    if lqsa ~= 1 then print('Wrong') os.exit() 
    else 
-     lqv = gg.prompt({'Enter Key:','Your Phone Code: ' .. lqdm},{[1]='',[2]= lqdm },{[1] = 'text',[2] = 'text'}) 
+     lqv = gg.prompt({'Click YES then copy the Phone Code and Send it to @brixmods ','Your Phone Code: ' .. lqdm},{[1]='',[2]= lqdm },{[1] = 'text',[2] = 'text'}) 
      if lqv == nil then print('Error') os.exit() end 
      if lqv[1] == '' then print('Dont Empty') os.exit() end 
      unXXX(lqv[1]) 
