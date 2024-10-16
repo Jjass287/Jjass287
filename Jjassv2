@@ -350,9 +350,7 @@ end
 
 
 function lobby()
-HexPatches.BrixMODZ("libanort.so", 0xE6D524, "7F 45 4C 46", 32);
 HexPatches.BrixMODZ("libunity.so", 0xC5886A, "C7 41 40 43 E3 D5 6F 5D", 32);
-HexPatches.BrixMODZ("libTDataMaster.so", 0xB34779, "F8 F3 0C 23 D6 F7 5B 95", 32);
 HexPatches.BrixMODZ("libanogs.so", 0xDB76DE, "01 F1 95 8D F3 E3 8A 2C", 32);
 HexPatches.BrixMODZ("libanogs.so", 0x174988, "h 00 00 80 D2 C0 03 5F D6", 32); 
 HexPatches.BrixMODZ("libanogs.so", 0x19FF30, "h 00 00 80 D2 C0 03 5F D6", 32); 
